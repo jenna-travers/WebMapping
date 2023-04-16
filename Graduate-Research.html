@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    
+
+  <head>
+    <meta charset='utf-8' />
+    <title>JT Web Mapping: Graduate Research</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <!--    1.1.  Include the reference to the Mapbox JavaScript here in the <head> of the page  -->
+       <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+    <!--    1.2 Include the reference to the Mapbox CSS here in the <head> of the page  -->
+            <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        /* 1.4 Insert the CSS code here between the <style> tags */
+        body { margin:50px; padding:50; }
+        #h1 { z-index: 9999; 
+         background-color:white;
+        color:#49849e; 
+         opacity: 75%; 
+            text-align: center;}
+        #map3 { position:relative; height:600px; width:100%;} 
+        #map1 { position:relative; height:500px; width:100%;}
+             #map2 { position:relative; height:500px; width:100%;}  
+        #title { z-index: 9999; 
+         background-color:white;
+        color:#0A0346; 
+            text-align: center;}
+        #byline { z-index: 9999; 
+         background-color:white;
+        color:#0A0346; 
+            text-align: center;}
+        #main { font-size: 14px;
+        text-align: justify;
+        color: #0A0346;}
+        #headings {color: #0A0346; }
+        /* 2.5.2 Insert additional CSS code here between the <style> tags */
+      
+    </style>
+  </head>
+
+  <body>
+        <!-- 1.3 Insert the div for the structure of the page here in the <body> of the page -->
+      <div id='title'>
+      <h1>Graduate Research Planned Sites</h1></div>
+       <div id='byline'>
+      <h3>By Jenna Travers for GEOG 490: Web Mapping</h3></div>
+        <div id='main'>
+      <body> I'm starting my M.S. in Marine Resource Management in the fall at Oregon State University, and I'm currently to planning my thesis research with my advisor. I plan to study climate change driven bioinvasions of Pacific salmon species toward the poles as their current mid-latitude habitat grows too warm for the cold-water fish. I created this website to visualize my research plan overview and individual study sites spatially. The first map is an overview of the research sites and my home at Oregon State, followed by maps of the two research sites. Click on the markers for more information about the sites! </body></div>
+      <hr>
+       <div id='headings'><h2>Overview of Masters Research</h2></div>
+     <div id='main'>
+      <body> 
+          My degree is a two-year program, with most of my research happening in the first year. I'll be based in Corvallis, Oregon, and travelling to Nome, Alaska, and the Falkland Islands to conduct my research, marked on the map below. The purpose of this research is to:  
+          <ul><li>Evaluate and quantify the presence of invasive Pacific salmon in the Arctic (Nome, Alaska) and SW Atlantic (Falkland Islands)</li>
+              <li> Create a timeline and explanation for bioinvasions of Pacific salmon species in north Alaska and Falkland Islands</li>
+               <li> Evaluate, compare, and contrast the qualitative and quantitative socioeconomic and ecological impacts of Pacific salmon bioinvasions in Arctic and SW Atlantic</li>  
+              <li> Compare the narratives of “natural” (range-expansion) vs. “unnatural” (introduced) bioinvasions with a focus on local perspectives, media representations, and policy decisions</li>
+               <li> Create a useful, public-facing overview of the project and findings, specifically tailored to the different communities’ needs and interests</li>
+          </ul>
+           <p> </p>
+           </body>
+                <div id='map3'></div>
+      <hr>
+      <div id='headings'><h2>Nome, Alaska: Summer 2023</h2></div> 
+       <div id='main'>
+      <body>  Due to recent rising temperatures in the Pacific Northwest and Alaska, populations of Pink salmon (Oncorhynchus gorbuscha) have migrated further north, establishing a reslatively stable fisheries in Nome. Nome has previously had other strong fisheries, including chum salmon, but climate change and changing land use practices have caused these populations to decline. This part of my research will examine the socioeconomic and ecological effects of a climate-drive bioinvasive fish species as a replacement for other typical fisheries due to the similarity of Pink salmon to the other salmonids that are declining.  
+           <p> </p>
+           </body>
+      <div id='map1'></div>
+      
+      <hr>
+         <div id='headings'><h2>Stanley, Falkland Islands: Winter 2024</h2></div>
+      
+       <div id='main'>
+      <body> My research in the Falkland Islands will focus on human introduction of fish species, policies surrounding invasive fish, and a recent population of Coho salmon (Oncorhynchus kisutch) that has migrated around the tip of South America into the Atlantic and Falkland Islands likely due to climate change. This aspect of the project will examine the socioeconomic and ecological ramifications of a new genus of fish (specifically a Pacific genus in the Atlantic) as a climate-driven and introduced bioinvader for a small island nation heavily reliant on fisheries. 
+           <p> </p>
+           </body>
+      </div>
+                <div id='map2'></div>
+       <hr>
+           
+      <div id='headings'><h3>References:</h3></div>
+          <div id='main'>
+      <body> 
+          <ol>
+              <li><a href="https://www.alaskaseafood.org/wp-content/uploads/MRG_ASMI-Economic-Impacts-Report_final.pdf">The Economic Value of Alaska's Seafood Industy; McKinley Research Group 2022</a></li>
+              <li><a href="https://www.arctictoday.com/in-alaskas-northern-bering-sea-a-commercial-pink-salmon-fishery-emerges/">Commercial Pink Salmon Fishery Emerges in Bering Sea; Arctic Today 2021</a> </li>
+              <li><a href="https://www.fisheries.noaa.gov/feature-story/pink-salmon-may-benefit-pacific-arctic-warms">Pink Salmon May Benefit as Pacific Arctic Warms; NOAA Fisheries 2020</a></li>
+              <li><a href="https://en.mercopress.com/2021/02/06/falklands-gdp-in-2018-reached-254.7-million-with-a-real-growth-rate-of-3-9">Falklands' GDP Overview; MercoPress 2021</a></li>
+          </ol>
+           </body> 
+        <body>
+        <script>
+            /* Insert the JavaScript within the <script> tags, within the body */
+            // 2.1 Start with the Mapbox access token
+             mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmF0cmF2ZXJzIiwiYSI6ImNsZzVmbXh0YjAzMWMzZXBjdXd4NzJ2NHAifQ.ou_E1YintKKKPSq62rxapw';
+
+            // 2.2 Then initialize the first map
+         var map = new mapboxgl.Map({
+       container: 'map1', // id of a div on your page, where the map will be inserted
+       style: 'mapbox://styles/mapbox/satellite-v9', // the style URL 'mapbox://styles/mapbox/streets-v11' 
+       center: [-165.4086, 65.25006], // starting position [lng, lat] 
+       zoom: 6 // starting zoom 
+            
+         });
+            // 2.3 Add any other variables (such as popups and markers) to the first map
+            var popup = new mapboxgl.Popup()
+                      .setText("Nome is a small city in northwest Alaska with a population fo around 3,700 people, about 75% of whom are Indigenous (Inupiaq, Central Yup'ik, and Siberian Yupik). Both commercial fishing and subsistence fishing are vital for many families in the region, and typical fisheries includ salmon, king crabs, and lamprey.");
+
+            
+            
+            
+                  var marker = new mapboxgl.Marker({color:'#0075A2'})
+                    .setLngLat([-165.4086, 64.5006]) // starting position [lng, lat]
+                    .setPopup(popup) //add the popup named "popup" to this marker 
+		    .addTo(map); // add it to the map with the ID "map"
+
+            // 2.4 Add arguments to disable the map interactivity here
+            // Disable drag and zoom handlers.
+                  map.dragPan.disable();
+               map.scrollZoom.disable();
+               map.boxZoom.disable();
+               map.dragRotate.disable();
+               map.keyboard.disable();
+               map.doubleClickZoom.disable();
+               map.touchZoomRotate.disable();
+               map.touchZoomRotate.disableRotation();
+
+            // 2.5.3 Then initialize the 2nd map
+              var map2 = new mapboxgl.Map({
+         container: 'map2', // id of a div on your page, where the map will be inserted
+         style: 'mapbox://styles/mapbox/satellite-v9', // stylesheet location
+         center: [-59.5236, -51.8363], // starting position [lng, lat] eg. [-122.6788, 45.5212]
+         zoom: 6.75 // starting zoom 
+         });
+
+            // 2.5.4 Add any other variables (such as markers) to the second map
+             var popup2 = new mapboxgl.Popup()
+         .setText("Stanley is the capital of the Falkland Islands which has around 2,500 people. Fishing accounts for 64% of the GDP in the country, and the biggest fisheries are squid and hake fish.");
+
+         var marker2 = new mapboxgl.Marker({color:'#DC697A'})
+           .setLngLat([-57.8592, -51.6927]) // starting position [lng, lat] 
+           .setPopup(popup2) //add the popup to the marker 
+           .addTo(map2); // id it to the map with the ID *map2*
+
+            // 2.5.5 Add arguments to disable the second map's interactivity here
+                 map2.dragPan.disable();
+         map2.scrollZoom.disable();
+         map2.boxZoom.disable();
+         map2.dragRotate.disable();
+         map2.keyboard.disable();
+         map2.doubleClickZoom.disable();
+         map2.touchZoomRotate.disable();
+         map2.touchZoomRotate.disableRotation();
+            
+            
+            var map3 = new mapboxgl.Map({
+         container: 'map3', // id of a div on your page, where the map will be inserted
+         style: 'mapbox://styles/mapbox/satellite-v9', // stylesheet location
+         center: [-100, 15], // starting position [lng, lat] eg. [-122.6788, 45.5212]
+         zoom: 1.3 // starting zoom 
+         });
+            
+        var popup3 = new mapboxgl.Popup()
+         .setText('Corvallis, Oregon: Oregon State University, planning to do coursework and thesis analysis here');
+
+         var marker3 = new mapboxgl.Marker({color:'#DD6000'})
+           .setLngLat([-123.2794, 44.56378]) // starting position [lng, lat] 
+           .setPopup(popup3) //add the popup to the marker 
+           .addTo(map3); //
+            
+        var popup4 = new mapboxgl.Popup()
+         .setText('Port Stanley, Falkland Islands: Expecting to Conduct Research in Winter 2024');
+
+         var marker4 = new mapboxgl.Marker({color:'#DC697A'})
+           .setLngLat([-57.8592, -51.6927]) // starting position [lng, lat] 
+           .setPopup(popup4) //add the popup to the marker 
+           .addTo(map3); //
+        
+        var popup5 = new mapboxgl.Popup()
+         .setText('Nome, Alaska: Expecting to Conduct Research in Summer 2023');
+
+         var marker5 = new mapboxgl.Marker({color:'#0075A2'})
+           .setLngLat([-165.4086, 64.5006]) // starting position [lng, lat] 
+           .setPopup(popup5) //add the popup to the marker 
+           .addTo(map3); //
+            
+              map3.dragPan.disable();
+         map3.scrollZoom.disable();
+         map3.boxZoom.disable();
+         map3.dragRotate.disable();
+         map3.keyboard.disable();
+         map3.doubleClickZoom.disable();
+         map3.touchZoomRotate.disable();
+         map3.touchZoomRotate.disableRotation();
+        </script>
+  </body>
+        
