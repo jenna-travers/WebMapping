@@ -8,6 +8,6 @@ Check out my projects for GEOG 490: Web Mapping
   </li>
   <li> <a href="https://jenna-travers.github.io/WebMapping/Portland-Housing-Choropleth.html">Portland Housing: Sliding Choropleth</a> 
   </li>
-  <li> <a href="https://jenna-travers.github.io/WebMapping/DC-spots.html">DC Spots: Filter By Type</a> 
+  <li> <a href="https://jenna-travers.github.io/WebMapping/DC-Spots.html">DC Spots: Filter By Type</a> 
   </li>
 </ul>
