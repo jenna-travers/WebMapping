@@ -1,0 +1,4559 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Why Lake Superior Is Rising and What That Means for the City of Duluth",
+        "Link": "https://glacierhub.org/2019/12/12/why-lake-superior-is-rising-and-what-this-means-for-duluth-minnesota/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Duluth, Minnesota"
+      },
+      "geometry": {
+        "coordinates": [
+          -92.0984,
+          46.7898
+        ],
+        "type": "Point"
+      },
+      "id": "010a9ab9f9de0173a1739a2fdce02f6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating Women in the Cryosphere",
+        "Link": "https://glacierhub.org/2020/03/26/celebrating-women-in-the-cryosphere/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Japan Fukushima"
+      },
+      "geometry": {
+        "coordinates": [
+          140.2905,
+          37.4437
+        ],
+        "type": "Point"
+      },
+      "id": "024bc83ebcd8263d5e9cbff352fb1b57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Global Review Assesses Hydropower’s Vulnerability to Climate Change",
+        "Link": "https://news.climate.columbia.edu/2022/07/28/global-review-assesses-hydropowers-vulnerability-to-climate-change/",
+        "Year": "2022",
+        "Continent": "South America",
+        "Location": "Andes"
+      },
+      "geometry": {
+        "coordinates": [
+          -67.3042,
+          -24.0039
+        ],
+        "type": "Point"
+      },
+      "id": "029ea07df8d7bee2980a17bbdc9906a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Coronavirus Is Affecting Communities in Glacier Regions",
+        "Link": "https://news.climate.columbia.edu/2020/03/17/covid-19-affecting-glacier-communities/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Everest"
+      },
+      "geometry": {
+        "coordinates": [
+          86.8718,
+          27.9075
+        ],
+        "type": "Point"
+      },
+      "id": "0326484867fac5d7275b1693b814f904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Study Supports Universal Glacier Slip Law",
+        "Link": "https://news.climate.columbia.edu/2020/05/21/new-study-supports-universal-glacier-slip-law/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "UW Madison"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.413,
+          43.0769
+        ],
+        "type": "Point"
+      },
+      "id": "03c93e9ffb82c541bd8728c0e53c507b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scientist Questions Ethics of Collecting Endangered Insects for Study",
+        "Link": "https://news.climate.columbia.edu/2021/11/04/scientist-questions-ethics-of-collecting-endangered-insects-for-study/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Italian Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.6131,
+          46.0479
+        ],
+        "type": "Point"
+      },
+      "id": "03cc2314815c30e245e21bd917e9d94e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Seismic Monitoring May Improve Early Warnings for Glacial Lake Outburst Floods",
+        "Link": "https://news.climate.columbia.edu/2020/09/16/seismic-warnings-glacial-lake-outburst-floods/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Punakha Bhutan"
+      },
+      "geometry": {
+        "coordinates": [
+          89.8712,
+          27.5908
+        ],
+        "type": "Point"
+      },
+      "id": "04add1d8e8bbe386f2db62d840c44bfb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Coronavirus is Expanding Into the Mountain Regions of Western China",
+        "Link": "https://glacierhub.org/2020/02/13/coronavirus-is-expanding-into-the-mountain-regions-of-western-china/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Tibet"
+      },
+      "geometry": {
+        "coordinates": [
+          86.6362,
+          28.1778
+        ],
+        "type": "Point"
+      },
+      "id": "05dbfd26f367f8d1f22d876b0cc7be47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How the Rejected Chilean Constitution Would Have Protected Glaciers",
+        "Link": "https://news.climate.columbia.edu/2022/10/06/how-the-rejected-chilean-constitution-would-have-protected-glaciers/",
+        "Year": "2022",
+        "Continent": "South America",
+        "Location": "Santiago, Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.6056,
+          -33.048
+        ],
+        "type": "Point"
+      },
+      "id": "05fce8f013e03377580704552c23bcfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cultural Appropriation in the Peruvian Andes Sparks Discussion Around Indigenous Identity",
+        "Link": "https://news.climate.columbia.edu/2020/09/22/cultural-appropriation-peruvian-indigenous-identity/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Cusco Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.9662,
+          -13.2173
+        ],
+        "type": "Point"
+      },
+      "id": "081cca02c9e8a245b0eee2558d5d2b8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Microplastics Are Affecting Melt Rates Of Snow And Ice",
+        "Link": "https://news.climate.columbia.edu/2021/04/01/microplastics-melt-snow-ice/",
+        "Year": "2021",
+        "Continent": "Antarctica",
+        "Location": "Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          91.8513,
+          -70.4902
+        ],
+        "type": "Point"
+      },
+      "id": "09b9838e9696f7edcbc8b26b9290d01f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Hidden World: Nighttime Photography in Greenland",
+        "Link": "https://news.climate.columbia.edu/2023/03/01/a-hidden-world-nighttime-photography-in-greenland/",
+        "Year": "2023",
+        "Continent": "North America",
+        "Location": "NYC, Scandinavia House"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.98,
+          40.7494
+        ],
+        "type": "Point"
+      },
+      "id": "0a0c4483c68e4fd1946bc751e7ab17e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Retreat Drives 400% Lake Expansion Southern Alps, New Zealand 1990-2020",
+        "Link": "https://glacierhub.org/2020/03/19/glacier-retreat-drives-400-lake-expansion-southern-alps-new-zealand-1990-2020/",
+        "Year": "2020",
+        "Continent": "Oceania",
+        "Location": "Southern Alps of New Zealand: Tasman, Hooker, Mueller, Murchison"
+      },
+      "geometry": {
+        "coordinates": [
+          170.3958,
+          -43.5006
+        ],
+        "type": "Point"
+      },
+      "id": "0b7c862c2788cefb4e84e5be9760bec1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Retreat in the Andes is Bankrupting a Billion Dollar Corporation",
+        "Link": "https://news.climate.columbia.edu/2022/04/15/glacier-retreat-in-the-andes-is-bankrupting-a-billion-dollar-corporation/",
+        "Year": "2022",
+        "Continent": "South America",
+        "Location": "Maipo River, Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.8472,
+          -33.7752
+        ],
+        "type": "Point"
+      },
+      "id": "0b81dec012b0358e4ce7d22f6d930ba2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Climate Change Is Affecting Sea Squirts In Antarctica",
+        "Link": "https://news.climate.columbia.edu/2021/03/18/climate-change-sea-squirts-antarctica/",
+        "Year": "2021",
+        "Continent": "Antarctica",
+        "Location": "West Antarctic Peninsula"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.7899,
+          -69.5453
+        ],
+        "type": "Point"
+      },
+      "id": "0d8f7c07f0e919e93d94c08ae7d8f256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alaskan Coast at Risk of Catastrophic Landslide and Mega-Tsunami",
+        "Link": "https://news.climate.columbia.edu/2020/05/29/alaska-landslide-mega-tsunami/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Barry Glacier AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -148.0416,
+          61.1952
+        ],
+        "type": "Point"
+      },
+      "id": "0dd632e378cd33fdd95e34d737d07389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Retreat Poses Threat to Beer Production",
+        "Link": "https://glacierhub.org/2020/03/12/glacier-retreat-poses-threat-to-beer-production/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Yakima Valley WA"
+      },
+      "geometry": {
+        "coordinates": [
+          -120.4943,
+          46.5892
+        ],
+        "type": "Point"
+      },
+      "id": "0e0239a70dff55da18aa07f32995256b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Reflections on Visits to Pakistan",
+        "Link": "https://news.climate.columbia.edu/2022/11/30/reflections-on-visits-to-pakistan/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Upper Chitral, Pakistan"
+      },
+      "geometry": {
+        "coordinates": [
+          71.6948,
+          35.8473
+        ],
+        "type": "Point"
+      },
+      "id": "0e3da67346b2f37d7cdb2bf3769efdac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "When National Policy Stalled, This Community Took Climate Action Into Its Own Hands",
+        "Link": "https://news.climate.columbia.edu/2022/05/19/when-national-policy-stalled-this-community-took-climate-action-into-its-own-hands/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Whatcom County, WA"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.2951,
+          48.8353
+        ],
+        "type": "Point"
+      },
+      "id": "0e7cef720abea9980be975e7cdb958a6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Class Determines Vulnerability to Catastrophic Glacial Flooding in Northwest Pakistan",
+        "Link": "https://news.climate.columbia.edu/2021/02/04/class-glacial-flooding-pakistan/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Reshun Pakistan"
+      },
+      "geometry": {
+        "coordinates": [
+          72.1234,
+          36.1445
+        ],
+        "type": "Point"
+      },
+      "id": "0f4780d3d5d6e5851a61666439d88575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacial Melting in High Mountain Asia Has the Potential to Overwhelm Hydropower Systems",
+        "Link": "https://news.climate.columbia.edu/2023/02/10/glacial-melting-in-high-mountain-asia-has-the-potential-to-overwhelm-hydropower-systems/",
+        "Year": "2023",
+        "Continent": "Asia",
+        "Location": "High Mountain Asia"
+      },
+      "geometry": {
+        "coordinates": [
+          80.3501,
+          29.5267
+        ],
+        "type": "Point"
+      },
+      "id": "0febb8f0b990bdc279f2265e23429352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blood Glacier and Creative Climate Storytelling for an Uncertain Future",
+        "Link": "https://news.climate.columbia.edu/2021/12/16/blood-glacier-and-creative-climate-storytelling-for-an-uncertain-future/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Austrian Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          14.1613,
+          47.3103
+        ],
+        "type": "Point"
+      },
+      "id": "107ff8bd897f3be9af7d9a6be5dc56a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Understanding Ice With Lasers: New Tool Helps Researchers Study Remote Glaciers",
+        "Link": "https://news.climate.columbia.edu/2022/10/18/understanding-ice-with-lasers-new-tool-helps-researchers-study-remote-glaciers/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Collier Glacier, OR"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.7852,
+          44.1657
+        ],
+        "type": "Point"
+      },
+      "id": "10b7e253207540f0b57e0623f7961df4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers May Record the Story of the Coronavirus Pandemic",
+        "Link": "https://news.climate.columbia.edu/2020/06/18/glaciers-record-coronavirus-pandemic/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.754,
+          46.8533
+        ],
+        "type": "Point"
+      },
+      "id": "10bbd47c5d086f88d81b891601ef953d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Microplastics Are Affecting Melt Rates Of Snow And Ice",
+        "Link": "https://news.climate.columbia.edu/2021/04/01/microplastics-melt-snow-ice/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -40.8231,
+          67.186
+        ],
+        "type": "Point"
+      },
+      "id": "13178579e1c7588279945e3ece03c062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Covering Glaciers With Blankets to Hide the Ice — and the Real Problem",
+        "Link": "https://news.climate.columbia.edu/2023/01/13/covering-glaciers-with-blankets-to-hide-the-ice-and-the-real-problem/",
+        "Year": "2023",
+        "Continent": "Asia",
+        "Location": "Ladakh, India"
+      },
+      "geometry": {
+        "coordinates": [
+          77.3745,
+          34.0209
+        ],
+        "type": "Point"
+      },
+      "id": "14dbcfd052ed748cd32eec86a1c2b377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Timelines Project Paints the Lines of Glacier Retreat",
+        "Link": "https://news.climate.columbia.edu/2020/09/24/timelines-project-glacier-retreat/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Trift Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          8.3709,
+          46.6639
+        ],
+        "type": "Point"
+      },
+      "id": "14ec567368dfc3c84767f37a8c2b8929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ancient Mosses Add to the Story of the Iceman’s Final Days on Earth",
+        "Link": "https://glacierhub.org/2020/01/30/ancient-mosses-add-to-story-of-the-icemans-final-days/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Otzal Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.9438,
+          46.7804
+        ],
+        "type": "Point"
+      },
+      "id": "15b0acccc43d2885a4ed64af114d5dc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Damage Uncovered on Antarctic Glaciers Reveals Worrying Signs for Sea Level Rise",
+        "Link": "https://news.climate.columbia.edu/2020/10/02/antarctic-glacier-damage-sea-level-rise/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Pine Island Glacier Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.9905,
+          -75.1768
+        ],
+        "type": "Point"
+      },
+      "id": "160a43bfe466ab9d04f89c475f082138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Narrating Landscapes: How Indigenous Storytelling Can Unlock Our Environment’s Past",
+        "Link": "https://news.climate.columbia.edu/2021/09/02/narrating-landscapes-how-indigenous-storytelling-can-unlock-our-environments-past/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Blackfoot Reserve Montana"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.9307,
+          48.5935
+        ],
+        "type": "Point"
+      },
+      "id": "17a5fc26d4d34f0975e3c4466cb9b301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Yakama Nation Fishery Succeeds In Restoring Columbia River Sturgeon",
+        "Link": "https://news.climate.columbia.edu/2020/06/26/yakama-nation-fishery-succeeds-restoring-columbia-river-sturgeon/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "central washington columbia basin yakama"
+      },
+      "geometry": {
+        "coordinates": [
+          -120.8296,
+          46.3032
+        ],
+        "type": "Point"
+      },
+      "id": "17b935895687400c7cc23af864a06d57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "COP-26: A Kyrgyz Journalist's Perspective",
+        "Link": "https://news.climate.columbia.edu/2021/11/11/cop-26-a-kyrgyz-journalists-perspective/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Glasgow"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.2621,
+          55.8649
+        ],
+        "type": "Point"
+      },
+      "id": "17eba18e6076c74825d9062fea964536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Is the Ski Industry Self-Destructive?",
+        "Link": "https://news.climate.columbia.edu/2020/07/08/ski-industry-self-destructive/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Ischgl ski resort Austrian Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.2927,
+          47.0126
+        ],
+        "type": "Point"
+      },
+      "id": "185c0725350da6117f028b403afd00d0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Asian Mountain Nations to Present Unified Voice at Global Climate Conference",
+        "Link": "https://news.climate.columbia.edu/2021/10/14/asian-mountain-nations-to-present-unified-voice-at-global-climate-conference/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "HMA"
+      },
+      "geometry": {
+        "coordinates": [
+          78.0101,
+          31.8986
+        ],
+        "type": "Point"
+      },
+      "id": "1963b9df30714e2a9ad5e00f3d997e00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "As Greenland’s Ice Melts, Glacial Sand Deposits May Offer a Welcome Economic Opportunity",
+        "Link": "https://news.climate.columbia.edu/2023/01/31/as-greenlands-ice-melts-glacial-sand-deposits-may-offer-a-welcome-economic-opportunity/",
+        "Year": "2023",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -45.8155,
+          62.2123
+        ],
+        "type": "Point"
+      },
+      "id": "1b23c8cf4daff3a000b98a2cc9fb50b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Blankets in Switzerland Highlight Global Disparities in Fighting Climate Change",
+        "Link": "https://news.climate.columbia.edu/2022/01/05/glacier-blankets-in-switzerland-highlight-global-disparities-in-fighting-climate-change/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Rhone Glacier, Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          8.3917,
+          46.6117
+        ],
+        "type": "Point"
+      },
+      "id": "1c396d3f6a98ac854e99dd6eb5ff9298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Crowded Backcountry Ski Slopes Increase Risk of Skiers Endangering Each Other",
+        "Link": "https://glacierhub.org/2019/12/26/crowded-backcountry-ski-slopes-increase-risk-of-skiers-endangering-each-other/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Mt Baker Snoqualmie National Forest"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.5712,
+          48.0733
+        ],
+        "type": "Point"
+      },
+      "id": "1c3af5aefb5751d61975a5282f0c0804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers in Canada Found To Be Thicker Than Previously Suggested",
+        "Link": "https://news.climate.columbia.edu/2020/11/19/thicker-glaciers-canada/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Canadian Columbia Basin"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.9279,
+          52.455
+        ],
+        "type": "Point"
+      },
+      "id": "1e5a3806be89837ab795196dbbc29f9b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Climate Change Is Destroying Honey Production in Kyrgyzstan",
+        "Link": "https://news.climate.columbia.edu/2021/11/09/climate-change-is-destroying-honey-production-in-kyrgyzstan/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Sary-Uzen Chui, Kyrgyzstan"
+      },
+      "geometry": {
+        "coordinates": [
+          73.9978,
+          42.4559
+        ],
+        "type": "Point"
+      },
+      "id": "2099dc420921de380fc64d4707445bd8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leaders from Glaciated Regions Highlight Importance of Women, Youth, and Indigenous Peoples at COP26",
+        "Link": "https://news.climate.columbia.edu/2021/11/12/leaders-from-glaciated-regions-highlight-importance-of-women-youth-and-indigenous-peoples-at-cop26/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Glasgow"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.2706,
+          55.8544
+        ],
+        "type": "Point"
+      },
+      "id": "210e5413fe6845627cf1cbedd246575e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pluto’s Landscape Is More Like Earth’s Than Previously Thought",
+        "Link": "https://news.climate.columbia.edu/2020/11/10/plutos-landscape-like-earths-previously-thought/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Ames Research Center "
+      },
+      "geometry": {
+        "coordinates": [
+          -122.0625,
+          37.4151
+        ],
+        "type": "Point"
+      },
+      "id": "22b83722bc37b5a1740fc51535e756f4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Might This Year’s Forest Fires Impact Glaciers in the West?",
+        "Link": "https://news.climate.columbia.edu/2020/10/21/forest-fires-impact-glaciers/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "North Cascades National Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.8061,
+          48.7673
+        ],
+        "type": "Point"
+      },
+      "id": "245fb848e9a42b11ace99c927362d907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Two Degrees Too Many: Average Global Temperature Increase Will Trigger Climate Tipping Points",
+        "Link": "https://news.climate.columbia.edu/2022/11/15/two-degrees-too-many-average-global-temperature-increase-will-trigger-climate-tipping-points/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -44.1215,
+          69.6315
+        ],
+        "type": "Point"
+      },
+      "id": "28157ef46596a26bf0c1828ff4376739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Devastating Flood in Himalayas Highlights Risks of Development in the Era of Climate Change",
+        "Link": "https://news.climate.columbia.edu/2021/02/16/flood-himalayas-development-climate/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Rishi Ganga River"
+      },
+      "geometry": {
+        "coordinates": [
+          79.7106,
+          30.4702
+        ],
+        "type": "Point"
+      },
+      "id": "28354c83fb63ef6c8d4ea4059809d625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Congressional Hearing Focuses on Earth’s Changing Cryosphere",
+        "Link": "https://glacierhub.org/2020/02/18/congressional-hearing-focuses-on-earths-changing-cryosphere/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Washington DC"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0117,
+          38.8898
+        ],
+        "type": "Point"
+      },
+      "id": "28b358d4869a5d7058a2e7214c7f4a67"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Are US Glacier Counties Complying With Social Distancing?",
+        "Link": "https://glacierhub.org/2020/03/31/are-us-glacier-counties-complying-with-social-distancing/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "King County Washington"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.2553,
+          47.3532
+        ],
+        "type": "Point"
+      },
+      "id": "28df5156c41415085e80628808105d80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "All-Nepali Team Makes History With First Successful Winter Ascent of K2",
+        "Link": "https://news.climate.columbia.edu/2021/02/18/nepali-team-winter-ascent-k2/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "K2"
+      },
+      "geometry": {
+        "coordinates": [
+          76.5124,
+          35.879
+        ],
+        "type": "Point"
+      },
+      "id": "2d4d78827e8d61b16f903503ff84c27a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Indigenous Activist Among Those Killed In Iran’s Takedown of Civilian Airliner",
+        "Link": "https://glacierhub.org/2020/01/14/indigenous-activist-among-those-killed-in-irans-takedown-of-civilian-airliner/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Southwest/central Iran: Qashqai"
+      },
+      "geometry": {
+        "coordinates": [
+          47.21,
+          37.5863
+        ],
+        "type": "Point"
+      },
+      "id": "2ebecba1b4ae134986df4fadf13c5f1a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Coronavirus Is Affecting Communities in Glacier Regions",
+        "Link": "https://news.climate.columbia.edu/2020/03/17/covid-19-affecting-glacier-communities/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Karakoram"
+      },
+      "geometry": {
+        "coordinates": [
+          73.995,
+          35.4038
+        ],
+        "type": "Point"
+      },
+      "id": "2eeb79c6eba733ea593c17a519c2af82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Representative Debra Lekanoff Works to Protect Washington’s Communities, Both Human and Salmon",
+        "Link": "https://news.climate.columbia.edu/2021/02/11/debra-lekanoff-protects-communities/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Olympia Washington"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.904,
+          47.0359
+        ],
+        "type": "Point"
+      },
+      "id": "2fae7bf28ad1edbde6b7a1f8fc98d2c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "No Change in Black Carbon Levels on Peruvian Glaciers, Despite Pandemic Quarantine",
+        "Link": "https://glacierhub.org/2020/05/12/no-change-in-black-carbon-levels-on-peruvian-glaciers-despite-pandemic-quarantine/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Yanapaccha Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.5774,
+          -9.0272
+        ],
+        "type": "Point"
+      },
+      "id": "2fcb7b61eb6d7fc39a7e03b76f9885a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bushfires in Australia Continue to Devastate New Zealand Glaciers",
+        "Link": "https://news.climate.columbia.edu/2020/01/07/australia-bushfires-new-zealand-glaciers/",
+        "Year": "2020",
+        "Continent": "Oceania",
+        "Location": "New Zealand Glaciers (Tasman Glacier)"
+      },
+      "geometry": {
+        "coordinates": [
+          170.2136,
+          -43.5992
+        ],
+        "type": "Point"
+      },
+      "id": "303cece17e96723f78c0d50db82cc468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Guidance Gives National Parks Tools to Make Tough Decisions on Climate Change",
+        "Link": "https://news.climate.columbia.edu/2021/06/24/new-guidance-gives-national-parks-tools-to-make-tough-decisions-on-climate-change/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Glacier National Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -113.7817,
+          48.7589
+        ],
+        "type": "Point"
+      },
+      "id": "30c68456a0a9ced9d1bab29a107fdc8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blackfeet Nation Closes Border of Glacier National Park in Response to Rising COVID-19 Cases",
+        "Link": "https://news.climate.columbia.edu/2020/07/29/blackfeet-nation-border-glacier-national-park/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "East entrance of Glacier NPS Blackfeet Nation"
+      },
+      "geometry": {
+        "coordinates": [
+          -113.2235,
+          48.4199
+        ],
+        "type": "Point"
+      },
+      "id": "30c7506a78d46d9771b5988ea9d95f29"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Court Blocks Trump Logging Plan for Mt. Hood",
+        "Link": "https://glacierhub.org/2020/04/07/court-blocks-trump-logging-plan-for-mt-hood/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Mt. Hood"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.6972,
+          45.3736
+        ],
+        "type": "Point"
+      },
+      "id": "30f74378746d829f04345628a698557b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dust May Beat Black Carbon at Speeding Up Snowmelt in the Himalayas",
+        "Link": "https://news.climate.columbia.edu/2020/12/03/dust-speeds-snowmelt-himalayas/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "northwest Indian himalayas"
+      },
+      "geometry": {
+        "coordinates": [
+          77.7417,
+          34.6516
+        ],
+        "type": "Point"
+      },
+      "id": "32180af5f33c8ccd121fcb6bf4687944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pasang Dolma Sherpa, Indigenous Peoples Representative to the U.N., Speaks With GlacierHub",
+        "Link": "https://news.climate.columbia.edu/2020/07/21/pasang-dolma-sherpa-interview/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Nepal"
+      },
+      "geometry": {
+        "coordinates": [
+          85.5464,
+          28.2614
+        ],
+        "type": "Point"
+      },
+      "id": "32408e090ce2edc16fa27ab92f8b9ed7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Are US Glacier Counties Complying With Social Distancing?",
+        "Link": "https://glacierhub.org/2020/03/31/are-us-glacier-counties-complying-with-social-distancing/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Utah County Utah"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.6646,
+          40.1836
+        ],
+        "type": "Point"
+      },
+      "id": "327a042c45bedc4af57963f74b3c6788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Amazon Fires Quickening Glacier Melting in Andes",
+        "Link": "https://glacierhub.org/2019/12/31/amazon-fires-quickening-glacier-melting-in-andes/",
+        "Year": "2019",
+        "Continent": "South America",
+        "Location": "Zongo Glacier Bolivia"
+      },
+      "geometry": {
+        "coordinates": [
+          -68.1875,
+          -16.2006
+        ],
+        "type": "Point"
+      },
+      "id": "33427e963dc21c95619f2a2c71fa1175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "U.S. Fails to Protect Wolverines, Again",
+        "Link": "https://news.climate.columbia.edu/2020/10/29/u-s-fails-protect-wolverines/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "DC"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0279,
+          38.8928
+        ],
+        "type": "Point"
+      },
+      "id": "34b2da6ea142b73b2b294a497f42c041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Are US Glacier Counties Complying With Social Distancing?",
+        "Link": "https://glacierhub.org/2020/03/31/are-us-glacier-counties-complying-with-social-distancing/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Hood River County Oregon"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.6716,
+          45.5285
+        ],
+        "type": "Point"
+      },
+      "id": "3575fad1e6168e8f8f3f5d4e843d140e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Covid-19 Pandemic Complicates Tourism in the Everest Region",
+        "Link": "https://glacierhub.org/2020/04/02/the-covid-19-pandemic-complicates-tourism-in-the-everest-region/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Lukla Nepal"
+      },
+      "geometry": {
+        "coordinates": [
+          86.7295,
+          27.6889
+        ],
+        "type": "Point"
+      },
+      "id": "373a0dfc8505fb8dba035d94afcfd0c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Controversial Alaskan Mine Receives a Push From the Trump Administration",
+        "Link": "https://news.climate.columbia.edu/2020/09/30/alaskan-mine-trump-administration/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Bokan Mountain Alaska"
+      },
+      "geometry": {
+        "coordinates": [
+          -108.5089,
+          54.919
+        ],
+        "type": "Point"
+      },
+      "id": "384033f18a21f99c1b8170ac94ee10ff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rising Water Temperatures Could Be A Death Sentence For Pacific Salmon",
+        "Link": "https://news.climate.columbia.edu/2021/02/10/rising-temperatures-pacific-salmon/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Olympia Washington"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.913,
+          47.1564
+        ],
+        "type": "Point"
+      },
+      "id": "39064161ef1869e9710acccb376f4829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Vicuña Dung Brings Vegetation to the High Andes",
+        "Link": "https://news.climate.columbia.edu/2020/12/22/vicuna-dung-vegetation-high-andes/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Peruvian Andes"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.5237,
+          -8.347099
+        ],
+        "type": "Point"
+      },
+      "id": "39262a627ede75edf6374398d202f4c4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "As the Greenland Ice Sheet Retreats, Mercury is Being Released From the Bedrock Below",
+        "Link": "https://news.climate.columbia.edu/2021/07/15/as-the-greenland-ice-sheet-retreats-mercury-is-being-released-from-the-bedrock-below/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -49.9414,
+          62.5842
+        ],
+        "type": "Point"
+      },
+      "id": "39a26f31d9ead0d539d114d93cd3d2be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "‘Each time you tell the same story, it evolves’: Creator of Tibetan Animated Film Speaks With GlacierHub",
+        "Link": "https://news.climate.columbia.edu/2020/08/14/time-tell-story-evolves-creator-tibetan-animated-film-speaks-glacierhub/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Yarlung River in  southern Tibet"
+      },
+      "geometry": {
+        "coordinates": [
+          90.1117,
+          29.3491
+        ],
+        "type": "Point"
+      },
+      "id": "3bc2e297b5191223232f206c8750d6ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "On Carbon, Geophysicist Robin Bell Walks the Walk",
+        "Link": "https://news.climate.columbia.edu/2019/03/07/robin-bell-carbon-footprint/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Lamont Doherty Earth Observatory"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9094,
+          41.0039
+        ],
+        "type": "Point"
+      },
+      "id": "3e3863111e3bf5e225d5403deed02a65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Warming Rivers Are Causing Die-Offs Among Alaska Salmon",
+        "Link": "https://news.climate.columbia.edu/2019/09/06/warming-rivers-salmon-die-offs/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Koyukuk River"
+      },
+      "geometry": {
+        "coordinates": [
+          -157.6677,
+          65.1999
+        ],
+        "type": "Point"
+      },
+      "id": "3f2bfbf6b01f15a8d0dcf663eb6cdfbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bridge Collapse in Pakistan Due to Glacier Lake Outburst Flood",
+        "Link": "https://news.climate.columbia.edu/2022/05/13/bridge-collapse-in-pakistan-due-to-glacier-lake-outburst-flood/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Hassanabad, Pakistan"
+      },
+      "geometry": {
+        "coordinates": [
+          74.5925,
+          36.2971
+        ],
+        "type": "Point"
+      },
+      "id": "3fb8cd4989d2d136f20e1163a0cd45a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Asian Mountain Nations to Present Unified Voice at Global Climate Conference",
+        "Link": "https://news.climate.columbia.edu/2021/10/14/asian-mountain-nations-to-present-unified-voice-at-global-climate-conference/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Glasgow"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.265,
+          55.8592
+        ],
+        "type": "Point"
+      },
+      "id": "418ea94c939c2e7ea93e163a2c74f647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Look at Climate-Caused Harms Unfolding in Peru’s Cordillera Blanca",
+        "Link": "https://news.climate.columbia.edu/2020/08/26/climate-caused-harms-cordillera-blanca/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Cordillera Blanca Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.5597,
+          -9.1745
+        ],
+        "type": "Point"
+      },
+      "id": "434e909419925e9c2d685c8fcc78ff70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers a Common Thread Throughout New UN Climate Report",
+        "Link": "https://news.climate.columbia.edu/2022/02/28/glaciers-a-common-thread-throughout-new-un-climate-report/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Geneva, Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          6.1396,
+          46.2265
+        ],
+        "type": "Point"
+      },
+      "id": "446e867e7e11dd564b6b7b95c100e77a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating Women in the Cryosphere",
+        "Link": "https://glacierhub.org/2020/03/26/celebrating-women-in-the-cryosphere/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Bolivean Andes"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.7923,
+          -17.4109
+        ],
+        "type": "Point"
+      },
+      "id": "44ebfc13d2023b2dc3892e25c91f5173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Ice Scouring in the Antarctic Disrupts Ecosystems",
+        "Link": "https://news.climate.columbia.edu/2020/08/03/ice-scouring-antarctic-ecosystems/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Western Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.2349,
+          -69.8128
+        ],
+        "type": "Point"
+      },
+      "id": "45485c59dfa1e3c5157358a6d462fd6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Five Years In, Legal Team Behind Groundbreaking Huaraz Case Remains Optimistic",
+        "Link": "https://news.climate.columbia.edu/2020/12/04/huaraz-case-five-years-later/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Lima, Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.9579,
+          -12.0868
+        ],
+        "type": "Point"
+      },
+      "id": "456953550d3b00b9b4563fcd58f21f9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tracing the Reach of An Interdisciplinary Antarctic Study",
+        "Link": "https://glacierhub.org/2020/02/04/tracing-the-reach-of-interdisciplinary-antarctic-study/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Totten Glacier Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          125.6749,
+          -66.2407
+        ],
+        "type": "Point"
+      },
+      "id": "464d51b51e92fa2d185e6fabea420ef9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leading Himalayan Organization Takes a Historical Step by Appointing a Leader From Bhutan",
+        "Link": "https://news.climate.columbia.edu/2020/08/20/himalayan-organization-leader-bhutan/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Bhutan"
+      },
+      "geometry": {
+        "coordinates": [
+          90.2759,
+          27.9242
+        ],
+        "type": "Point"
+      },
+      "id": "47190929dde7365e5f02bc40ebdf5111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kerguelen Island Glacier Retreat Expands Lake District",
+        "Link": "https://glacierhub.org/2020/01/02/kerguelen-island-glacier-retreat-expands-lake-district/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Cook Ice Cap Kerguelen Island"
+      },
+      "geometry": {
+        "coordinates": [
+          69.0673,
+          -49.301
+        ],
+        "type": "Point"
+      },
+      "id": "47b2a011a9987fc1d6a532fd62676ae1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating Women in the Cryosphere",
+        "Link": "https://glacierhub.org/2020/03/26/celebrating-women-in-the-cryosphere/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Alaska Gulkana Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          -145.468,
+          63.2406
+        ],
+        "type": "Point"
+      },
+      "id": "48c584f7442c2f4d84a814521a254b24"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scientists Reconstruct the Glacial Conditions During Ötzi the Iceman’s Lifetime",
+        "Link": "https://news.climate.columbia.edu/2021/01/13/glacial-conditions-otzi-iceman/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Otzal Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.9239,
+          46.7731
+        ],
+        "type": "Point"
+      },
+      "id": "48ea18e796003076c380af2111e83425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Antarctica Glacier Named for Glasgow Climate Negotiations at COP26",
+        "Link": "https://news.climate.columbia.edu/2021/11/08/antarctica-glacier-named-for-glasgow-climate-negotiations-at-cop26/",
+        "Year": "2021",
+        "Continent": "Antarctica",
+        "Location": "Getz Region of Antarctic"
+      },
+      "geometry": {
+        "coordinates": [
+          145.216,
+          -76.5517
+        ],
+        "type": "Point"
+      },
+      "id": "493ed6af7bcb3d05486b3439aba31ef1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Storm King Art Exhibit Features Glass, Marble, and Glacial History",
+        "Link": "https://news.climate.columbia.edu/2020/10/07/storm-king-art-exhibit-glacial-history/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Storm King Art Center NY"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.0599,
+          41.4241
+        ],
+        "type": "Point"
+      },
+      "id": "4ab879b39a1da2eb0768afda6d072b42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Amazon Fires Quickening Glacier Melting in Andes",
+        "Link": "https://glacierhub.org/2019/12/31/amazon-fires-quickening-glacier-melting-in-andes/",
+        "Year": "2019",
+        "Continent": "South America",
+        "Location": "Amazon Rainforest"
+      },
+      "geometry": {
+        "coordinates": [
+          -62.8061,
+          -2.4414
+        ],
+        "type": "Point"
+      },
+      "id": "4e82e495b95130715397b1367ead9138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Space Glaciers: Carbon Dioxide Ice Forms Glaciers on Mars",
+        "Link": "https://news.climate.columbia.edu/2022/07/11/space-glaciers-carbon-dioxide-ice-forms-glaciers-on-mars/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "York University"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.5026,
+          43.7751
+        ],
+        "type": "Point"
+      },
+      "id": "4eca1f53ae114ef6b0b49ab9b837d820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Last Remaining Glaciers in the Pacific Will Soon Melt Away",
+        "Link": "https://glacierhub.org/2019/12/19/last-remaining-glaciers-in-the-pacific-will-soon-melt-away/",
+        "Year": "2019",
+        "Continent": "Oceania",
+        "Location": "Puncak Jaya New guinea"
+      },
+      "geometry": {
+        "coordinates": [
+          137.1841,
+          -4.107199
+        ],
+        "type": "Point"
+      },
+      "id": "4f129e78f98dcf8eeb87b694571d0745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "IMD Marked with Event at United Nations Headquarters",
+        "Link": "https://glacierhub.org/2019/12/17/imd-marked-with-event-at-united-nations-headquarters/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "NYC UN HQ"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9671,
+          40.7504
+        ],
+        "type": "Point"
+      },
+      "id": "4f6039a76c4160bfa93b8b2e96980c28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Crater Beneath Greenland Glacier Is 58 million Years Older Than Previously Thought",
+        "Link": "https://news.climate.columbia.edu/2022/07/19/crater-beneath-greenland-glacier-is-58-million-years-older-than-previously-thought/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Hiawatha Glacier Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -67.0484,
+          78.8285
+        ],
+        "type": "Point"
+      },
+      "id": "4fb3e9063bbefbe362798e259b29aa16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Developing Countries Fuel Momentum For Ambitious Climate Targets",
+        "Link": "https://news.climate.columbia.edu/2020/12/23/developing-countries-climate-targets/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Thimphu Bhutan"
+      },
+      "geometry": {
+        "coordinates": [
+          89.6365,
+          27.4755
+        ],
+        "type": "Point"
+      },
+      "id": "50eb3189f9fb9e5fb8cf5a140eaad415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Retreating Glaciers Threaten Herbs Used to Make Iconic Alpine Liqueurs",
+        "Link": "https://news.climate.columbia.edu/2021/03/10/retreating-glaciers-herbs-liqueurs/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          11.8303,
+          47.2055
+        ],
+        "type": "Point"
+      },
+      "id": "51234ef4500bd5c236a07512fe39ab5b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Russian Geopolitical Strategies in the Arctic Are Complicated by Rapid Glacier Retreat on Remote Islands",
+        "Link": "https://news.climate.columbia.edu/2021/09/16/russian-geopolitical-strategies-in-the-arctic-are-complicated-by-rapid-glacier-retreat-on-remote-islands/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Alexandra Land Russia"
+      },
+      "geometry": {
+        "coordinates": [
+          47.4703,
+          80.7857
+        ],
+        "type": "Point"
+      },
+      "id": "51619e06fd4492164a1ae3ce32d3df75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "‘When Glaciers Go’ Producer Tashi Bista Speaks with GlacierHub",
+        "Link": "https://news.climate.columbia.edu/2020/11/16/tashi-bista-interview-glacierhub/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Upper Mustang region Nepal"
+      },
+      "geometry": {
+        "coordinates": [
+          83.956,
+          29.2322
+        ],
+        "type": "Point"
+      },
+      "id": "524396e8e2830848582ac5887f158914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Traditional Water Management Practices in Pakistan Threatened by Climate Change and Globalization",
+        "Link": "https://news.climate.columbia.edu/2022/01/20/traditional-water-management-practices-in-pakistan-threatened-by-climate-change-and-globalization/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Hunza Valley, Pakistan"
+      },
+      "geometry": {
+        "coordinates": [
+          74.6502,
+          36.3143
+        ],
+        "type": "Point"
+      },
+      "id": "542a495962863915635c6982857a707b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bipartisan Caucus Aims to Support Ski Industry Threatened by Climate Change",
+        "Link": "https://news.climate.columbia.edu/2022/03/31/bipartisan-caucus-aims-to-support-ski-industry-threatened-by-climate-change/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "DC"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0091,
+          38.8898
+        ],
+        "type": "Point"
+      },
+      "id": "54c51c412b11d68f59307b746e9fb420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Landmark Climate Change Lawsuit Moves Forward as German Judges Arrive in Peru",
+        "Link": "https://news.climate.columbia.edu/2022/08/04/landmark-climate-change-lawsuit-moves-forward-as-german-judges-arrive-in-peru/",
+        "Year": "2022",
+        "Continent": "South America",
+        "Location": "Lake Palcacocha, Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.3809,
+          -9.3983
+        ],
+        "type": "Point"
+      },
+      "id": "54f6f3fe8577938bbb5d722c79175c25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers in the Olympic Mountains Could Vanish by End of This Century",
+        "Link": "https://glacierhub.org/2020/01/07/glaciers-in-the-olympic-mountains-could-vanish-by-end-of-this-century/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Olympic Peninsula Blue Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.6845,
+          47.7855
+        ],
+        "type": "Point"
+      },
+      "id": "57959b259f53cd77c74112e27401930c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Damage Uncovered on Antarctic Glaciers Reveals Worrying Signs for Sea Level Rise",
+        "Link": "https://news.climate.columbia.edu/2020/10/02/antarctic-glacier-damage-sea-level-rise/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Thwaites Glacier Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -108.5089,
+          -74.0459
+        ],
+        "type": "Point"
+      },
+      "id": "58e5288e6af7e129e1052efa9865c6c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Summer Heat Waves Caused Several Glaciers to Collapse",
+        "Link": "https://news.climate.columbia.edu/2022/09/13/summer-heat-waves-caused-several-glaciers-to-collapse/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Italian Dolomites"
+      },
+      "geometry": {
+        "coordinates": [
+          11.843,
+          46.4092
+        ],
+        "type": "Point"
+      },
+      "id": "5a7430e1766e7cb10050967a8de03a17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New United Nations Report on Climate Change Documents the Grave Condition of the World’s Glaciers",
+        "Link": "https://news.climate.columbia.edu/2021/08/30/new-united-nations-report-on-climate-change-documents-the-grave-condition-of-the-worlds-glaciers/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Geneva"
+      },
+      "geometry": {
+        "coordinates": [
+          6.1408,
+          46.2264
+        ],
+        "type": "Point"
+      },
+      "id": "5fee4b961f4743d501e53dbe294db06a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ancient Data Provides Insights for Managing Future Flood Risks in Patagonia",
+        "Link": "https://news.climate.columbia.edu/2020/11/11/ancient-data-future-flood-risks-patagonia/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Baker River "
+      },
+      "geometry": {
+        "coordinates": [
+          -72.944,
+          -47.4329
+        ],
+        "type": "Point"
+      },
+      "id": "61b1beafa8488f69f35b8ede78d34e92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blue Whale Population in Chile Threatened by Fishing Industry",
+        "Link": "https://news.climate.columbia.edu/2021/07/13/blue-whale-population-in-chile-threatened-by-fishing-industry/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "north coast Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.162,
+          -19.3766
+        ],
+        "type": "Point"
+      },
+      "id": "61fddc9123944a7e0ffe9a39dab29359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Leading Himalayan Organization Takes a Historical Step by Appointing a Leader From Bhutan",
+        "Link": "https://news.climate.columbia.edu/2020/08/20/himalayan-organization-leader-bhutan/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          8.074299,
+          46.5502
+        ],
+        "type": "Point"
+      },
+      "id": "62a48cf462135cb355e903c230c529be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Subglacial Lakes in Antarctica Found to Be More Active Than Previously Thought",
+        "Link": "https://news.climate.columbia.edu/2020/12/18/thwaites-subglacial-lakes-active/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Thwaites glacier, Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -108.7806,
+          -74.127
+        ],
+        "type": "Point"
+      },
+      "id": "62a6fcf0a7b29d66335b21f416b79c45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Warming Rivers Are Causing Die-Offs Among Alaska Salmon",
+        "Link": "https://news.climate.columbia.edu/2019/09/06/warming-rivers-salmon-die-offs/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Bristol Bay"
+      },
+      "geometry": {
+        "coordinates": [
+          -159.4292,
+          58.2029
+        ],
+        "type": "Point"
+      },
+      "id": "6453f4be979b29adb6755d9b3789b192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Funerals Offer a Way of Coping With Ecological Grief",
+        "Link": "https://news.climate.columbia.edu/2021/09/24/glacier-funerals-offer-a-way-of-coping-with-ecological-grief/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Ok Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          -20.8781,
+          64.5946
+        ],
+        "type": "Point"
+      },
+      "id": "68cb3dab0578080d93b2c5c71e18e81d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Two Degrees Too Many: Average Global Temperature Increase Will Trigger Climate Tipping Points",
+        "Link": "https://news.climate.columbia.edu/2022/11/15/two-degrees-too-many-average-global-temperature-increase-will-trigger-climate-tipping-points/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Barents Sea"
+      },
+      "geometry": {
+        "coordinates": [
+          38.0824,
+          73.6176
+        ],
+        "type": "Point"
+      },
+      "id": "6af96f550a2eb57e1e019a282e1039ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Laser Technology Reveals Climate Change will Induce a Future of Stronger Saharan Dust Storms",
+        "Link": "https://glacierhub.org/2020/02/25/new-laser-technology-reveals-climate-change-will-bring-a-future-of-stronger-saharan-dust-storms/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Colle Gnifetti Glacier Swiss-Italy border"
+      },
+      "geometry": {
+        "coordinates": [
+          7.8742,
+          45.9295
+        ],
+        "type": "Point"
+      },
+      "id": "6bdbb3c599eb12064b191f2ebb75b237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "COP27 and Its Outcomes for Kyrgyzstan",
+        "Link": "https://news.climate.columbia.edu/2023/02/02/cop27-and-its-outcomes-for-kyrgyzstan/",
+        "Year": "2023",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan"
+      },
+      "geometry": {
+        "coordinates": [
+          74.4161,
+          41.5904
+        ],
+        "type": "Point"
+      },
+      "id": "6e2394f5f77c342f86e8dcd0c571c80a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pasang Dolma Sherpa, Indigenous Peoples Representative to the U.N., Speaks With GlacierHub",
+        "Link": "https://news.climate.columbia.edu/2020/07/21/pasang-dolma-sherpa-interview/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Geneva"
+      },
+      "geometry": {
+        "coordinates": [
+          6.1403,
+          46.2267
+        ],
+        "type": "Point"
+      },
+      "id": "70367ae69f765fe644c479e1e0846a4e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ancient Peoples in Patagonia Who Adapted to Changing Climate Offer Insights for Today",
+        "Link": "https://news.climate.columbia.edu/2020/07/16/patagonia-ancient-climate-adaptation/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Strait of Magellan"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.6433,
+          -52.9563
+        ],
+        "type": "Point"
+      },
+      "id": "7247981077e5009c0bd6aec0ace73a5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Summer Heat Waves Caused Several Glaciers to Collapse",
+        "Link": "https://news.climate.columbia.edu/2022/09/13/summer-heat-waves-caused-several-glaciers-to-collapse/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan"
+      },
+      "geometry": {
+        "coordinates": [
+          75.4901,
+          41.7892
+        ],
+        "type": "Point"
+      },
+      "id": "739a660e912415877e32d97b3fbf84a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "To Bring Back Endangered Fish, This First Nation Is Claiming Environmental Management Authority",
+        "Link": "https://news.climate.columbia.edu/2020/07/09/nuxalk-nation-endangered-fish/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Bella Coola River in south BritCol"
+      },
+      "geometry": {
+        "coordinates": [
+          -126.7527,
+          52.3713
+        ],
+        "type": "Point"
+      },
+      "id": "754ec5fa538fcac09f774fc94bea1996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Studies Reveal Global Ice Melt Estimates Have Been Conservative",
+        "Link": "https://news.climate.columbia.edu/2021/02/17/global-ice-melt-estimates-conservative/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -49.0232,
+          69.5355
+        ],
+        "type": "Point"
+      },
+      "id": "75a8f6a91d16d3c26e9f444dcc6f1414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers Can Mean the Difference Between Life and Death for Salmon During Heatwaves",
+        "Link": "https://news.climate.columbia.edu/2022/07/07/glaciers-can-mean-the-difference-between-life-and-death-for-salmon-during-heatwaves/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Nooksack River"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.33,
+          48.8753
+        ],
+        "type": "Point"
+      },
+      "id": "75d4a0cb76d9fd308f63c5c2578dfe40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cheesemaking in Nepal Under Threat Unless Pastoralist Traditions are Revived",
+        "Link": "https://news.climate.columbia.edu/2020/08/12/cheesemaking-nepal-pastoralist-traditions/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Nepal Langtang Valley"
+      },
+      "geometry": {
+        "coordinates": [
+          85.5254,
+          28.2122
+        ],
+        "type": "Point"
+      },
+      "id": "7721c51a38583d3cae12668fdcbc3cef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "U.S. Fails to Protect Wolverines, Again",
+        "Link": "https://news.climate.columbia.edu/2020/10/29/u-s-fails-protect-wolverines/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Rockies"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.1523,
+          40.3025
+        ],
+        "type": "Point"
+      },
+      "id": "7758fdd7720b2c8be0e187abf279b482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Local Action Leads to Salmon Comeback in Washington’s Hood Canal",
+        "Link": "https://news.climate.columbia.edu/2020/11/12/salmon-comeback-hood-canal/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Washington State Hood Canal"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.1011,
+          47.4383
+        ],
+        "type": "Point"
+      },
+      "id": "78331a6879e5fa0190cf95cc8646f54f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Quantifying the Ecosystem Services of Glaciers Highlights Their Importance to Humankind",
+        "Link": "https://news.climate.columbia.edu/2021/09/17/quantifying-the-ecosystem-services-of-glaciers-highlights-their-importance-to-humankind/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -17.4466,
+          64.4709
+        ],
+        "type": "Point"
+      },
+      "id": "790e6d6df651d1534189b0792341e1ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Melting Glacier Floods Arctic Coal Mine, Highlighting Climate Change Paradox",
+        "Link": "https://news.climate.columbia.edu/2020/09/18/coal-mining-svalbard-glacier-flood/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Svalbard Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          16.306,
+          77.4374
+        ],
+        "type": "Point"
+      },
+      "id": "797fb746ea05bbcfbc63ac9af123b994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "What Climate Change Adaptation Programs in Peru Are Missing: Indigenous Women’s Knowledge",
+        "Link": "https://news.climate.columbia.edu/2021/04/27/what-climate-change-adaptation-programs-in-peru-are-missing-indigenous-womens-knowledge/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "Chillca, Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.7351,
+          -12.5035
+        ],
+        "type": "Point"
+      },
+      "id": "7b3f0766c946d0cf3f298f28d09da0f3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dancers Perform the Ice",
+        "Link": "https://news.climate.columbia.edu/2021/09/03/dancers-perform-the-ice/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Kennecott Rec Hall Wrangell"
+      },
+      "geometry": {
+        "coordinates": [
+          -132.3819,
+          56.4721
+        ],
+        "type": "Point"
+      },
+      "id": "7c3a2d3d17baefbde708c277c0a80a97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Robotic Kayaks Discover High Rates of Underwater Glacier Melt",
+        "Link": "https://glacierhub.org/2020/04/14/robotic-kayaks-discover-high-rates-of-underwater-glacier-melt/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "LeConte Glacier SE Alaska"
+      },
+      "geometry": {
+        "coordinates": [
+          -132.3294,
+          56.9455
+        ],
+        "type": "Point"
+      },
+      "id": "7c4e97dc6c49b879a6f412b3eaf92852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "NATO’s Cold Response and the Implications of Militarization in the Arctic",
+        "Link": "https://news.climate.columbia.edu/2022/06/08/natos-cold-response-and-the-implications-of-militarization-in-the-arctic/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          8.9656,
+          61.0097
+        ],
+        "type": "Point"
+      },
+      "id": "7c5935f2ee44561fe93eb02b21135e9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weddell Seal Population May Be Much Lower Than Previously Thought",
+        "Link": "https://news.climate.columbia.edu/2022/02/04/weddell-seal-population-may-be-much-lower-than-previously-thought/",
+        "Year": "2022",
+        "Continent": "Antarctica",
+        "Location": "Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -131.1397,
+          -75.3733
+        ],
+        "type": "Point"
+      },
+      "id": "7cb785af6f3a78f05172cf49c15b0499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "What Moody’s Recent Acquisition Means for Assessing the Costs of the Climate Crisis",
+        "Link": "https://news.climate.columbia.edu/2019/08/05/moodys-acquisition-climate-risk/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Berkeley CA"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.2608,
+          37.8707
+        ],
+        "type": "Point"
+      },
+      "id": "7d90c063cf54b71190b6890560ba0a7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Study Aims to Better Understand Iceberg-Tsunami Dynamics",
+        "Link": "https://glacierhub.org/2019/12/24/study-aims-to-better-understand-iceberg-tsunami-dynamics/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Greenland Eqip Sermia Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          -50.068,
+          69.8162
+        ],
+        "type": "Point"
+      },
+      "id": "7e52f92f1ed3fd0b236fc5902b20b422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Thwaites Glacier in Antarctica is Now Causing Earthquakes",
+        "Link": "https://glacierhub.org/2020/03/05/thwaites-glacier-in-antarctica-is-now-causing-earthquakes/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Thwaites Glacier Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -107.5712,
+          -74.3228
+        ],
+        "type": "Point"
+      },
+      "id": "7e70d35977867c63cd4ce47878d9b0e7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Greenland Ice Sheet Reached Tipping Point 20 Years Ago, New Study Finds",
+        "Link": "https://news.climate.columbia.edu/2020/09/02/greenland-tipping-point-20-years-ago/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -38.1339,
+          69.7387
+        ],
+        "type": "Point"
+      },
+      "id": "7e773c072122897cee1e6204ddb781cc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pesticides and Industrial Pollutants Found in Snow Atop Arctic Glaciers",
+        "Link": "https://news.climate.columbia.edu/2020/08/06/pesticides-pollutants-arctic-glaciers/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Svalbard Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          12.1424,
+          79.4347
+        ],
+        "type": "Point"
+      },
+      "id": "8048f1bb6efc4bb7a6f9ab6d5568b68b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Airport Construction Threatens Andean Environments and Cultural Monuments",
+        "Link": "https://glacierhub.org/2019/12/10/airport-construction-threatens-andean-environments-and-cultural-monuments/",
+        "Year": "2019",
+        "Continent": "South America",
+        "Location": "Chincheros Peru Mt. Veronica"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.3258,
+          -13.1666
+        ],
+        "type": "Point"
+      },
+      "id": "812a1db2eddbf21f5d28c2e262fb1bfa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating Women in the Cryosphere",
+        "Link": "https://glacierhub.org/2020/03/26/celebrating-women-in-the-cryosphere/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Qashqai Iran"
+      },
+      "geometry": {
+        "coordinates": [
+          47.2099,
+          37.5864
+        ],
+        "type": "Point"
+      },
+      "id": "81d6122af54f49904ee4064bef4f8abb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Protecting Yellowstone’s Waters: Proposed Legislation Would Safeguard More of Montana’s Rivers",
+        "Link": "https://news.climate.columbia.edu/2021/02/26/proposed-legislation-protect-montana-rivers/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Yellowstone Montana"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.2408,
+          44.8545
+        ],
+        "type": "Point"
+      },
+      "id": "82beed4eeb0b9d567d04c71f6fe56741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Catastrophic Glacier Collapse and Mudflow in Salkantay, Peru",
+        "Link": "https://glacierhub.org/2020/03/03/a-catastrophic-glacier-collapse-and-mudflow-in-salkantay-peru/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Salkantay, Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.544,
+          -13.3343
+        ],
+        "type": "Point"
+      },
+      "id": "850e7aac32213ae6facd0c1dfd85445f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Study Analyzes Strengths and Weaknesses of Glacier Monitoring Systems Around the World",
+        "Link": "https://glacierhub.org/2019/12/05/study-analyzes-strengths-and-weaknesses-of-glacier-monitoring-systems-around-the-world/",
+        "Year": "2019",
+        "Continent": "Europe",
+        "Location": "Zurich"
+      },
+      "geometry": {
+        "coordinates": [
+          8.4981,
+          47.3903
+        ],
+        "type": "Point"
+      },
+      "id": "8522f86315c280db9e298d4151ecdc5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Global Review Assesses Hydropower’s Vulnerability to Climate Change",
+        "Link": "https://news.climate.columbia.edu/2022/07/28/global-review-assesses-hydropowers-vulnerability-to-climate-change/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          10.0018,
+          46.6535
+        ],
+        "type": "Point"
+      },
+      "id": "85efeaf5b30848ec226a54fe266a91e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chile's Pascua-Lama Mine Legally Shut Down, but Mining Exploration Continues",
+        "Link": "https://news.climate.columbia.edu/2021/01/15/pascua-lama-mine-shut-down/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "Pascua-Lama Mine in Huasco Valley Chile/Argentina"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.0133,
+          -29.3183
+        ],
+        "type": "Point"
+      },
+      "id": "87c8ca38da346e0eb5a63de60bb091e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Climate Change and Glaciers Affect Mountain-Building in Patagonia",
+        "Link": "https://news.climate.columbia.edu/2021/05/27/climate-change-and-glaciers-affect-mountain-building-in-patagonia/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "North Andes between Chile and Argentina"
+      },
+      "geometry": {
+        "coordinates": [
+          -68.3495,
+          -24.9913
+        ],
+        "type": "Point"
+      },
+      "id": "88197e8db5e35de9db4a9af13a97c310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Book Highlights the Beauty of Glaciers",
+        "Link": "https://news.climate.columbia.edu/2020/12/10/book-highlights-beauty-glaciers/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Canmore Alberta"
+      },
+      "geometry": {
+        "coordinates": [
+          -115.3522,
+          51.078
+        ],
+        "type": "Point"
+      },
+      "id": "8a3ff42834d586d0c08c866a5cf06f1a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "When COVID-19 Quarantines Ancestral Andean Rituals",
+        "Link": "https://news.climate.columbia.edu/2020/06/24/covid-19-quarantine-andean-rituals/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Cusco Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.9764,
+          -13.5239
+        ],
+        "type": "Point"
+      },
+      "id": "8a886ed1c7dbcadd772f7c392af9bb8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Funerals Offer a Way of Coping With Ecological Grief",
+        "Link": "https://news.climate.columbia.edu/2021/09/24/glacier-funerals-offer-a-way-of-coping-with-ecological-grief/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Clark Glacier Oregon"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.7767,
+          44.0946
+        ],
+        "type": "Point"
+      },
+      "id": "8b0c5294b6db30268921cc09b6a8933f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chilean Organization Hopes to Write Glacier Protection Into Chile's New Constitution",
+        "Link": "https://news.climate.columbia.edu/2020/07/31/ngo-glaciers-chilean-constitution/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Santiago, Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.6326,
+          -33.4381
+        ],
+        "type": "Point"
+      },
+      "id": "8c53981b5df7048321d2778b8d3f34cf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fire and Ice: New Database Maps and Classifies the Dangers of Glacierized Volcanoes",
+        "Link": "https://news.climate.columbia.edu/2020/11/25/database-maps-glacierized-volcanoes/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Dickinson College"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.1994,
+          40.2027
+        ],
+        "type": "Point"
+      },
+      "id": "8d3c7428c9e8c62dc2fedbf9c86da6f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scientists Piece Together Nearly Two Decades of Global Glacier Ice Loss",
+        "Link": "https://news.climate.columbia.edu/2020/09/03/two-decades-global-glacier-loss/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "German Aerospace Centre"
+      },
+      "geometry": {
+        "coordinates": [
+          8.871,
+          53.0996
+        ],
+        "type": "Point"
+      },
+      "id": "8eab13fbb73c95d3205351e25df72d1a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Whistler Water’s Glacial Appeal",
+        "Link": "https://glacierhub.org/2020/03/24/whistler-waters-glacial-appeal/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Whistler BritCol"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.9536,
+          50.1154
+        ],
+        "type": "Point"
+      },
+      "id": "8fa2bd367bcb1a80ec2df68a4e73706f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Melt Leads to Increased Carbon Dioxide Levels Due to These Tiny Fungi",
+        "Link": "https://news.climate.columbia.edu/2021/04/30/glacier-melt-leads-to-increased-carbon-dioxide-levels-due-to-these-tiny-fungi/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Alaska Boundary Range"
+      },
+      "geometry": {
+        "coordinates": [
+          -139.0042,
+          60.398
+        ],
+        "type": "Point"
+      },
+      "id": "8fc3608ea407e199cdcfb68404c16a64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Coronavirus Is Affecting Communities in Glacier Regions",
+        "Link": "https://news.climate.columbia.edu/2020/03/17/covid-19-affecting-glacier-communities/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Swiss Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          7.9837,
+          46.4984
+        ],
+        "type": "Point"
+      },
+      "id": "90818bdeb26ea4193f9d80a2d9139f8e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers May Record the Story of the Coronavirus Pandemic",
+        "Link": "https://news.climate.columbia.edu/2020/06/18/glaciers-record-coronavirus-pandemic/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Himalayas"
+      },
+      "geometry": {
+        "coordinates": [
+          80.511,
+          30.4448
+        ],
+        "type": "Point"
+      },
+      "id": "90e67fc27c254f8ca1994f6105c62015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Coronavirus Is Affecting Communities in Glacier Regions",
+        "Link": "https://news.climate.columbia.edu/2020/03/17/covid-19-affecting-glacier-communities/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "South Tyrol Italy"
+      },
+      "geometry": {
+        "coordinates": [
+          11.4637,
+          46.766
+        ],
+        "type": "Point"
+      },
+      "id": "90ec318c68d8c9d1af2a9e0255f32edb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Laser Technology Reveals Climate Change will Induce a Future of Stronger Saharan Dust Storms",
+        "Link": "https://glacierhub.org/2020/02/25/new-laser-technology-reveals-climate-change-will-bring-a-future-of-stronger-saharan-dust-storms/",
+        "Year": "2020",
+        "Continent": "Africa",
+        "Location": "Sahara desert "
+      },
+      "geometry": {
+        "coordinates": [
+          25.2271,
+          22.3299
+        ],
+        "type": "Point"
+      },
+      "id": "910b2f228e4ef77a6132e7ba0f440092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "COVID-19 Lockdowns Led to the Cleanest Snow Across Asia in 20 Years",
+        "Link": "https://news.climate.columbia.edu/2021/06/10/covid-19-lockdowns-led-to-the-cleanest-snow-across-asia-in-20-years/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Indus Basin"
+      },
+      "geometry": {
+        "coordinates": [
+          70.8393,
+          30.9883
+        ],
+        "type": "Point"
+      },
+      "id": "92b8a59520d875d22518f672570fc586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Balls of Moss Travel in Herds Atop Some Glaciers and We Don’t Know Why",
+        "Link": "https://news.climate.columbia.edu/2020/06/12/moss-balls-travel-herds-glaciers/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Root Glacier in Wrangell Mountains of AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -142.9023,
+          61.5765
+        ],
+        "type": "Point"
+      },
+      "id": "9411e807a73ab489abf89bda6bc56ee1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Melt Leads to Increased Carbon Dioxide Levels Due to These Tiny Fungi",
+        "Link": "https://news.climate.columbia.edu/2021/04/30/glacier-melt-leads-to-increased-carbon-dioxide-levels-due-to-these-tiny-fungi/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Austrian Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          14.0578,
+          47.283
+        ],
+        "type": "Point"
+      },
+      "id": "942a8f1723654b4d18f31da87f03b4e2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Crucial Antarctic Glacier Likely to Collapse Much Earlier than Expected",
+        "Link": "https://news.climate.columbia.edu/2021/12/17/crucial-antarctic-glacier-likely-to-collapse-much-earlier-than-expected/",
+        "Year": "2021",
+        "Continent": "Antarctica",
+        "Location": "Thwaites glacier, Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -109.183,
+          -73.7322
+        ],
+        "type": "Point"
+      },
+      "id": "9495c974e31b600a2057e483863bab89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rising Water Temperatures Could Be A Death Sentence For Pacific Salmon",
+        "Link": "https://news.climate.columbia.edu/2021/02/10/rising-temperatures-pacific-salmon/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Puget Sound"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.454,
+          47.6911
+        ],
+        "type": "Point"
+      },
+      "id": "961c65a3127f66bb6a0cf9d718deae58"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Report Released at COP27 Gives a ‘Terminal Diagnosis’ for Summer Sea Ice",
+        "Link": "https://news.climate.columbia.edu/2022/11/07/report-released-at-cop27-gives-a-terminal-diagnosis-for-summer-sea-ice/",
+        "Year": "2022",
+        "Continent": "Africa",
+        "Location": "Sharm-el-Sheikh, Egypt"
+      },
+      "geometry": {
+        "coordinates": [
+          34.346,
+          27.9399
+        ],
+        "type": "Point"
+      },
+      "id": "96cf1a43bcd39a4f50f4b55e6c7186f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "What Social Media Can Teach Us About Human-Environment Relationships",
+        "Link": "https://news.climate.columbia.edu/2020/08/25/instagra-human-environment-relationships/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Mediterranean Institute for Advanced Studies"
+      },
+      "geometry": {
+        "coordinates": [
+          14.4712,
+          46.0919
+        ],
+        "type": "Point"
+      },
+      "id": "97744bd33cb61ebc64e0b862a4179efe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers Unlock Clues to Spanish Flu Pandemic",
+        "Link": "https://news.climate.columbia.edu/2020/11/13/glaciers-spanish-flu-pandemic/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Italian Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          9.7304,
+          45.7916
+        ],
+        "type": "Point"
+      },
+      "id": "97e3cdbe2a6908a139f023594090f279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "“Urgency. Gravity. Hope.” World’s Top Climate Report Highlights Dire Need for Climate Action",
+        "Link": "https://news.climate.columbia.edu/2023/03/23/urgency-gravity-hope-worlds-top-climate-report-highlights-dire-need-for-climate-action/",
+        "Year": "2023",
+        "Continent": "Europe",
+        "Location": "Interlaken, Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          7.8634,
+          46.6879
+        ],
+        "type": "Point"
+      },
+      "id": "9886301b06570deb0a8f98bc0ff78dfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating Women in the Cryosphere",
+        "Link": "https://glacierhub.org/2020/03/26/celebrating-women-in-the-cryosphere/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Washington DC"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0453,
+          38.9146
+        ],
+        "type": "Point"
+      },
+      "id": "990a1c5b7ab49a072b9916b04b9de2fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Canary in the Coal Mine: Frank Granshaw on Glaciers and Geoscience Education",
+        "Link": "https://news.climate.columbia.edu/2022/03/23/the-canary-in-the-coal-mine-frank-granshaw-on-glaciers-and-geoscience-education/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "North Cascades National Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.3426,
+          48.7348
+        ],
+        "type": "Point"
+      },
+      "id": "9b1c34721f7aee531e26ea534c9b851d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Water Samples Reveal Microplastics in Remote Patagonian Fjord System",
+        "Link": "https://news.climate.columbia.edu/2020/12/02/microplastics-patagonian-fjord-system/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Martinez-Baker Channel in Patagonia Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.4445,
+          -42.3315
+        ],
+        "type": "Point"
+      },
+      "id": "9e57ab87a2013ff47982f2cff4ee9d7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "French Resort in the Pyrenees Sparks Debate on the Transportation of Snow to Ski Slopes by Helicopter",
+        "Link": "https://glacierhub.org/2020/03/10/french-resort-in-the-pyrenees-sparks-debate-on-the-transportation-of-snow-to-ski-slopes-by-helicopter/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Luchon-Superbaagneres ski resort French Pyrenees"
+      },
+      "geometry": {
+        "coordinates": [
+          0.5773,
+          42.7683
+        ],
+        "type": "Point"
+      },
+      "id": "9eb3ec0d4454ec0870e1460d9ab78f5b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Capturing the North Cascades",
+        "Link": "https://news.climate.columbia.edu/2020/07/14/north-cascades-stephen-matera/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "North Cascades National Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.8083,
+          48.7708
+        ],
+        "type": "Point"
+      },
+      "id": "a00d9dd578ffaf381cde03ddf9e37e9d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Timelines Project Paints the Lines of Glacier Retreat",
+        "Link": "https://news.climate.columbia.edu/2020/09/24/timelines-project-glacier-retreat/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Rhone Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          8.3876,
+          46.5887
+        ],
+        "type": "Point"
+      },
+      "id": "a029350d7c1bb3e9a58e8835707478ac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating International Mountain Day With Biodiversity Commitments",
+        "Link": "https://news.climate.columbia.edu/2020/12/17/international-mountain-day-biodiversity/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan"
+      },
+      "geometry": {
+        "coordinates": [
+          71.2664,
+          41.7871
+        ],
+        "type": "Point"
+      },
+      "id": "a1ee92c40f08f32a2bf698f17ab5bc4b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "German Court Sides With Youth Climate Activists to Safeguard Human Rights",
+        "Link": "https://news.climate.columbia.edu/2021/05/28/german-court-sides-with-youth-climate-activists-to-safeguard-human-rights/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Karlsrhue, Germany"
+      },
+      "geometry": {
+        "coordinates": [
+          8.391,
+          49.0001
+        ],
+        "type": "Point"
+      },
+      "id": "a1f5f0deb3cc9a2bdb20444a929ee13a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Long-term Cryosphere Monitoring Program in Pakistan Seeks to Understand and Protect Glaciers",
+        "Link": "https://glacierhub.org/2020/02/20/long-term-cryosphere-monitoring-programme-in-pakistan-seeks-to-understand-and-protect-glaciers/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Koshik Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          -147.9039,
+          61.3983
+        ],
+        "type": "Point"
+      },
+      "id": "a3996de60a70ec4bf51bfa76655c3b3b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hindu Kush Himalaya Nations Vow to Protect Mountains in Recent Summit",
+        "Link": "https://news.climate.columbia.edu/2020/10/20/hindu-kush-himalaya-nations-vow-protect-mountains-recent-summit/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "HMA"
+      },
+      "geometry": {
+        "coordinates": [
+          89.5224,
+          26.7121
+        ],
+        "type": "Point"
+      },
+      "id": "a48248cd9bb92e660950846389b119c1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Minority of Peruvian Mountain Farmers Benefit From Government Pandemic Programs",
+        "Link": "https://news.climate.columbia.edu/2020/05/15/peru-rose-farmers-pandemic/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Callejón de Huaylas Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.7498,
+          -9.1668
+        ],
+        "type": "Point"
+      },
+      "id": "a5b1184a6d533bb9861c86a60f4d540c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "COP-26: A Kyrgyz Journalist's Perspective",
+        "Link": "https://news.climate.columbia.edu/2021/11/11/cop-26-a-kyrgyz-journalists-perspective/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan"
+      },
+      "geometry": {
+        "coordinates": [
+          73.9033,
+          41.9565
+        ],
+        "type": "Point"
+      },
+      "id": "a84d98611a7facf46891f66438579e5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Pyramid on Everest, Caught in the Balance",
+        "Link": "https://news.climate.columbia.edu/2022/12/05/a-pyramid-on-everest-caught-in-the-balance/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Khumbu Valley, Nepal"
+      },
+      "geometry": {
+        "coordinates": [
+          86.8446,
+          27.9962
+        ],
+        "type": "Point"
+      },
+      "id": "a9dd681bbff4d417924f2695bcd55ea0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Proglacial Freshwaters Found to be Carbon Sinks",
+        "Link": "https://glacierhub.org/2019/11/26/proglacial-freshwaters-found-to-be-carbon-sinks/",
+        "Year": "2019",
+        "Continent": "North America",
+        "Location": "Nunavut Canada"
+      },
+      "geometry": {
+        "coordinates": [
+          -97.8731,
+          67.1534
+        ],
+        "type": "Point"
+      },
+      "id": "aa16f224c29fb3b22975f880e5c81079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Are US Glacier Counties Complying With Social Distancing?",
+        "Link": "https://glacierhub.org/2020/03/31/are-us-glacier-counties-complying-with-social-distancing/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Siskiyou County California"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.5937,
+          41.6446
+        ],
+        "type": "Point"
+      },
+      "id": "aa2e1ae50829d758bafc2717d8e68f5b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Perfume Fragrances Found in Glacial Ice on Russia’s Mount Elbrus",
+        "Link": "https://news.climate.columbia.edu/2020/09/17/perfume-fragrances-mount-elbrus/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Russia Mount Elbrus"
+      },
+      "geometry": {
+        "coordinates": [
+          42.437,
+          43.348
+        ],
+        "type": "Point"
+      },
+      "id": "aaf3e15fb3c3a594089553fc81010a3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Olafur Eliasson's Latest Creation Combines Art and Science on an Italian Glacier",
+        "Link": "https://news.climate.columbia.edu/2020/11/18/olafur-eliassons-italian-glacier/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Hochjochferner glacier south tyrol italy"
+      },
+      "geometry": {
+        "coordinates": [
+          10.8,
+          46.7832
+        ],
+        "type": "Point"
+      },
+      "id": "ab016c3a4353c7d276f211f6999e277b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Remains of Cold War Plane Crash Emerging From Rapidly Melting Alaska Glacier",
+        "Link": "https://news.climate.columbia.edu/2020/07/28/cold-war-plane-crash-remains-alaska/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Colony Glacier AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -148.5079,
+          61.2388
+        ],
+        "type": "Point"
+      },
+      "id": "ab2cc48011070804bf5f6813768bfa80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Melting Glaciers Have Shifted the Earth’s Axis",
+        "Link": "https://news.climate.columbia.edu/2021/05/19/melting-glaciers-shifted-earths-axis/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland Ice Sheet"
+      },
+      "geometry": {
+        "coordinates": [
+          -51.523,
+          65.9568
+        ],
+        "type": "Point"
+      },
+      "id": "ad3759780acac8e83accbbbe8f4d7bc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "‘The Canary in the Coal Mine’: Most Olympic Peninsula Glaciers Will Disappear by 2070",
+        "Link": "https://news.climate.columbia.edu/2022/11/11/the-canary-in-the-coal-mine-most-olympic-peninsula-glaciers-will-disappear-by-2070/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Olympic National Park, WA"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.7086,
+          47.8053
+        ],
+        "type": "Point"
+      },
+      "id": "af96ea79c3efdb11843305476271f425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Russian Navy Confirms Emergence of Five New Islands in the Arctic Ocean",
+        "Link": "https://glacierhub.org/2019/11/21/russian-navy-confirms-emergence-of-five-new-islands-in-the-arctic-ocean/",
+        "Year": "2019",
+        "Continent": "Europe",
+        "Location": "Novaya Zemlya Russia"
+      },
+      "geometry": {
+        "coordinates": [
+          57.434,
+          74.717
+        ],
+        "type": "Point"
+      },
+      "id": "b0a3f0d75f07109a9db03cd5ac77a520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "In India-Pakistan Standoff, Siachen Glacier Is No Passive Bystander",
+        "Link": "https://news.climate.columbia.edu/2021/03/05/siachen-conflict-warfare/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Siachen Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          77.0023,
+          35.4841
+        ],
+        "type": "Point"
+      },
+      "id": "b1ec8833ab85e83a052ea127c3de8c87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Summer Heat Waves Caused Several Glaciers to Collapse",
+        "Link": "https://news.climate.columbia.edu/2022/09/13/summer-heat-waves-caused-several-glaciers-to-collapse/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Switzerland St. Annafirn Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          8.6026,
+          46.5994
+        ],
+        "type": "Point"
+      },
+      "id": "b2bf585d943d29440043f8ba818891e6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A Tale of Two Alpine Towns: Study Highlights How Different Tourism Strategies Influence Resilience",
+        "Link": "https://news.climate.columbia.edu/2021/06/02/a-tale-of-two-alpine-towns-study-highlights-how-different-tourism-strategies-influence-resilience/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Vent and Obergurgl Austria"
+      },
+      "geometry": {
+        "coordinates": [
+          10.9591,
+          46.8658
+        ],
+        "type": "Point"
+      },
+      "id": "b4783d981d6ac89ada8027830231192e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Celebrating International Mountain Day With Biodiversity Commitments",
+        "Link": "https://news.climate.columbia.edu/2020/12/17/international-mountain-day-biodiversity/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "New York City"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9682,
+          40.7497
+        ],
+        "type": "Point"
+      },
+      "id": "b556b44f4458fd8f8a1b1159d3ca6608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Iceberg Melt Rates and Glacier Frontal Ablation: Seller and Heim Glacier, Antarctica",
+        "Link": "https://glacierhub.org/2020/05/19/iceberg-melt-rates-and-glacier-frontal-ablation-seller-and-heim-glacier-antarctica/",
+        "Year": "2020",
+        "Continent": "Antarctica",
+        "Location": "Seller Glacier, Antarctica"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.4002,
+          -69.3169
+        ],
+        "type": "Point"
+      },
+      "id": "b66d9af4911a46cfb70aabe3f17e4973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jumbo Valley Wilderness Protected as Land Management Case Comes to a Close",
+        "Link": "https://news.climate.columbia.edu/2020/06/03/jumbo-valley-wilderness-protection/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "British Columbia Jumbo Glacier Resort"
+      },
+      "geometry": {
+        "coordinates": [
+          -116.5949,
+          50.4046
+        ],
+        "type": "Point"
+      },
+      "id": "b694a86ee111379937f30e2d685552b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "At Glacier’s End: Protecting Glacial Rivers in Iceland",
+        "Link": "https://glacierhub.org/2020/01/21/at-glaciers-end-protecting-glacial-rivers-in-iceland/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -18.8125,
+          65.694999
+        ],
+        "type": "Point"
+      },
+      "id": "b857b2434d51093a6b1531548733b7d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "What Superpower Conflicts Mean for Indigenous Peoples",
+        "Link": "https://news.climate.columbia.edu/2020/06/16/superpower-conflicts-indigenous-peoples/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Galwan Valley on India China border"
+      },
+      "geometry": {
+        "coordinates": [
+          78.1603,
+          34.7573
+        ],
+        "type": "Point"
+      },
+      "id": "b88e6ce1bd97ab7cff8226d65d8d84e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Atmospheric Rivers Spur Debates on Flood Management in Washington State",
+        "Link": "https://news.climate.columbia.edu/2022/01/31/atmospheric-rivers-spur-debates-on-flood-management-in-washington-state/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Nooksack River"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.195,
+          48.8095
+        ],
+        "type": "Point"
+      },
+      "id": "bab5cba76a387e8fe1cd80eb14a9d816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Peruvian Study Opens Doors for Glacial Research",
+        "Link": "https://glacierhub.org/2020/04/09/peruvian-study-opens-doors-for-glacial-research/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Rio Santa watershed Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.54,
+          -9.4762
+        ],
+        "type": "Point"
+      },
+      "id": "bad3d6d3de66bd451f3bad039d9966ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Changing Perspectives: How Bottom-Up Studies Can Improve Water Security",
+        "Link": "https://news.climate.columbia.edu/2023/01/26/changing-perspectives-how-bottom-up-studies-can-improve-water-security/",
+        "Year": "2023",
+        "Continent": "Asia",
+        "Location": "High Mountain Asia"
+      },
+      "geometry": {
+        "coordinates": [
+          82.3569,
+          28.8775
+        ],
+        "type": "Point"
+      },
+      "id": "bb703e34c4a609ded036842bbe32dc5e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CO2 Reduction Law Rejected in Swiss Referendum",
+        "Link": "https://news.climate.columbia.edu/2021/07/30/co%e2%82%82-reduction-law-rejected-in-swiss-referendum/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Bern, Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          7.4468,
+          46.9436
+        ],
+        "type": "Point"
+      },
+      "id": "bf7d9f3a8f8c5c53d1a1bcb6a4decbd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dolomites, UNESCO World Heritage Site, Center of Mounting Controversy",
+        "Link": "https://glacierhub.org/2020/04/23/dolomites-unesco-world-heritage-site-center-of-mounting-controversy/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Dolomites Italy"
+      },
+      "geometry": {
+        "coordinates": [
+          11.8289,
+          46.409
+        ],
+        "type": "Point"
+      },
+      "id": "c0002cd2b4e9cea5d0f83e569f1390c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Irrigation in High Mountain Asia is Creating Unexpected Glacier Growth",
+        "Link": "https://news.climate.columbia.edu/2020/10/15/irrigation-glacier-growth/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Karakoram"
+      },
+      "geometry": {
+        "coordinates": [
+          75.7929,
+          35.9858
+        ],
+        "type": "Point"
+      },
+      "id": "c05d50c35a4a3d7b377b45e733b204ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Melting Glaciers Could Produce More Than 3,000 Miles of New Pacific Salmon Habitat",
+        "Link": "https://news.climate.columbia.edu/2022/03/01/melting-glaciers-could-produce-more-than-3000-miles-of-new-pacific-salmon-habitat/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "North BritCol"
+      },
+      "geometry": {
+        "coordinates": [
+          -134.3258,
+          68.9028
+        ],
+        "type": "Point"
+      },
+      "id": "c0e5649faac2158f007d9449719bcb7e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New Guidance Gives National Parks Tools to Make Tough Decisions on Climate Change",
+        "Link": "https://news.climate.columbia.edu/2021/06/24/new-guidance-gives-national-parks-tools-to-make-tough-decisions-on-climate-change/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Denali National Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -151.1926,
+          63.104
+        ],
+        "type": "Point"
+      },
+      "id": "c103b3d2ef26b39a3b5c398d8a037895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Declining Salmon Lead Eagles to Seek Out Food in Washington's Agricultural Areas",
+        "Link": "https://news.climate.columbia.edu/2022/08/30/declining-salmon-lead-eagles-to-seek-out-food-in-washingtons-agricultural-areas/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Nooksack"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.7893,
+          48.8291
+        ],
+        "type": "Point"
+      },
+      "id": "c1f5a98bffc82ffcc1143850e6e4a9d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How to Predict the Unpredictable in a Changing Climate",
+        "Link": "https://news.climate.columbia.edu/2021/02/05/predict-unpredictable-changing-climate/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Barry Arm fjord AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -148.1534,
+          61.0753
+        ],
+        "type": "Point"
+      },
+      "id": "c29e5261a59e429178d7642f5aaf0347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "An Interview With Wesley Morgan on Warfare in the Hindu Kush of Afghanistan",
+        "Link": "https://news.climate.columbia.edu/2021/05/26/wesley-morgan-warfare-hindu-kush-afghanistan/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Hindu Kush in Afghanistan"
+      },
+      "geometry": {
+        "coordinates": [
+          68.0069,
+          35.2435
+        ],
+        "type": "Point"
+      },
+      "id": "c335a9de6b455918c52d08f4084c88c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Letting Enchantment Lead the Way: Iceland’s Hidden Folk and Environmental Protection",
+        "Link": "https://news.climate.columbia.edu/2023/01/19/letting-enchantment-lead-the-way-icelands-hidden-folk-and-environmental-protection/",
+        "Year": "2023",
+        "Continent": "Europe",
+        "Location": "Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -23.7793,
+          64.8071
+        ],
+        "type": "Point"
+      },
+      "id": "c35493931828b79af6b9f85bd07a40bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "GlacierHub Statement Condemning Systemic Racism and Police Brutality",
+        "Link": "https://news.climate.columbia.edu/2020/06/09/glacierhub-condemns-racism-police-brutality/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "New York City Columbia University"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9628,
+          40.8071
+        ],
+        "type": "Point"
+      },
+      "id": "c651deb1ea9fb85d1059621e68205eb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kyrgyzstan Will Move Away From Coal to Hydropower by 2050",
+        "Link": "https://news.climate.columbia.edu/2021/11/03/kyrgyzstan-will-move-away-from-coal-to-hydropower-by-2050/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan Bishek"
+      },
+      "geometry": {
+        "coordinates": [
+          74.5953,
+          42.876
+        ],
+        "type": "Point"
+      },
+      "id": "c684d419cbd404ec3b08f1289ce0407f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Collapsing Glacier in Kyrgyzstan Sends Worrying Signal to Central Asia",
+        "Link": "https://news.climate.columbia.edu/2022/07/13/a-collapsing-glaciers-in-kyrgyzstan-sends-worrying-signal-to-central-asia/",
+        "Year": "2022",
+        "Continent": "Asia",
+        "Location": "Dzhuku pass Kyrgyzstan/Issyk-Kul"
+      },
+      "geometry": {
+        "coordinates": [
+          77.8343,
+          41.942
+        ],
+        "type": "Point"
+      },
+      "id": "c7c26d8047ec81c208572076eb9c1e19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Two Degrees Too Many: Average Global Temperature Increase Will Trigger Climate Tipping Points",
+        "Link": "https://news.climate.columbia.edu/2022/11/15/two-degrees-too-many-average-global-temperature-increase-will-trigger-climate-tipping-points/",
+        "Year": "2022",
+        "Continent": "Antarctica",
+        "Location": "Antarctica "
+      },
+      "geometry": {
+        "coordinates": [
+          -2.6031,
+          -73.527
+        ],
+        "type": "Point"
+      },
+      "id": "c828cf9ae06fdba58418f817536589f7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Warming in Norwegian Fjord Causing Changes in Seabird Populations",
+        "Link": "https://news.climate.columbia.edu/2021/04/28/warming-in-norwegian-fjord-causing-changes-in-seabird-populations/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Hornsund fjord in Svalbard"
+      },
+      "geometry": {
+        "coordinates": [
+          16.299199,
+          78.5245
+        ],
+        "type": "Point"
+      },
+      "id": "c82bf045000d4a3f7d3760382896d206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scientists Piece Together Nearly Two Decades of Global Glacier Ice Loss",
+        "Link": "https://news.climate.columbia.edu/2020/09/03/two-decades-global-glacier-loss/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "NASA Jet Propulsion Lab"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.1714,
+          34.201
+        ],
+        "type": "Point"
+      },
+      "id": "c9449a6409f8f0515d89550909bac175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Can a New Type of Glacier on Mars Aid Future Astronauts?",
+        "Link": "https://news.climate.columbia.edu/2021/04/19/glacier-mars-aid-future-astronauts/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "University of Western Ontario"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.273,
+          43.0081
+        ],
+        "type": "Point"
+      },
+      "id": "c9b066db3de327e2a30124693985caee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Matterhorn: Alive With Vibrational Energy",
+        "Link": "https://news.climate.columbia.edu/2022/03/24/the-matterhorn-alive-with-vibrational-energy/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Matterhorn, Switzerland/Italy"
+      },
+      "geometry": {
+        "coordinates": [
+          7.6491,
+          45.9743
+        ],
+        "type": "Point"
+      },
+      "id": "cac86051291d800606b1098b9c96d4bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Combinations of Marginalized Identities Can Limit Climate Adaptation in Peru",
+        "Link": "https://news.climate.columbia.edu/2021/01/08/marginalized-identities-climate-adaptation-peru/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "Caylloma Province Peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.7924,
+          -15.7703
+        ],
+        "type": "Point"
+      },
+      "id": "cac9c0d766fa10e5c83cb77f09593159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "In Iceland, Melting Glaciers Give Way to Plant Life",
+        "Link": "https://news.climate.columbia.edu/2021/02/24/iceland-melting-glaciers-succession/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -20.3204,
+          64.6008
+        ],
+        "type": "Point"
+      },
+      "id": "cb5e3009f8d391cdf634d1a594fa378c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Abandoned Landscapes and Impermanent Places: Tom Kizzia’s ‘Cold Mountain Path’",
+        "Link": "https://news.climate.columbia.edu/2022/07/06/abandoned-landscapes-and-impermanent-places-tom-kizzias-cold-mountain-path/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "McCarthy Kennecott, AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -142.8868,
+          61.4828
+        ],
+        "type": "Point"
+      },
+      "id": "cb96e9c9ab6cf8ca77707a369c2592d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacial Ice Cores Reveal 15,000 Year Old Microbes",
+        "Link": "https://news.climate.columbia.edu/2021/09/01/glacial-ice-cores-reveal-15000-year-old-microbes/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Guliya Ice Cap"
+      },
+      "geometry": {
+        "coordinates": [
+          79.7913,
+          34.8639
+        ],
+        "type": "Point"
+      },
+      "id": "ccc6c86289e4f17dc3d2bf17dac800cb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "GlacierHub Writers and Editors Share What Earth Day Means to Them",
+        "Link": "https://news.climate.columbia.edu/2020/04/22/glacierhub-earth-day-2020-videos/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "NYC, Columbia University"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9628,
+          40.8068
+        ],
+        "type": "Point"
+      },
+      "id": "cec02aba4806c51462d4cc0df139356a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Loss of Fire Lookouts Spurs Questions About Historic Preservation",
+        "Link": "https://news.climate.columbia.edu/2021/10/25/loss-of-fire-lookouts-spurs-questions-about-historic-preservation/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Mount Hood National Forest"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.699,
+          45.3659
+        ],
+        "type": "Point"
+      },
+      "id": "cf0f0e81f72914f055c06f1dbc8475a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Twin Ice Caps in Canadian High Arctic Have Disappeared",
+        "Link": "https://news.climate.columbia.edu/2020/08/27/st-patrick-bay-ice-caps-disappear/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Ellesmere Island Nunvut Canada"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.7508,
+          80.2613
+        ],
+        "type": "Point"
+      },
+      "id": "d09a2db3a211af633bb242751969ed27"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Geotextiles Could Slow Glacial Melt, but at What Cost?",
+        "Link": "https://news.climate.columbia.edu/2021/04/14/geotextiles-slow-glacial-melt-cost/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Rhone Glacier, Switzerland"
+      },
+      "geometry": {
+        "coordinates": [
+          8.3743,
+          46.6263
+        ],
+        "type": "Point"
+      },
+      "id": "d297a7c00bfa4752fcfc6b1fb9d0935d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Iceland to Commemorate the Demise of Okjökull Glacier",
+        "Link": "https://news.climate.columbia.edu/2019/08/01/iceland-commemorate-okjokull-glacier/",
+        "Year": "2019",
+        "Continent": "Europe",
+        "Location": "Ok Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -20.8745,
+          64.5934
+        ],
+        "type": "Point"
+      },
+      "id": "d436be9e0f6fb99f37bf02130a302883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Study Locates Origins of Glacier Soot Pollution in Northern India",
+        "Link": "https://news.climate.columbia.edu/2021/02/03/study-locates-origins-glacier-soot/",
+        "Year": "2021",
+        "Continent": "Asia",
+        "Location": "Indian Western Himilayas"
+      },
+      "geometry": {
+        "coordinates": [
+          77.2704,
+          32.5904
+        ],
+        "type": "Point"
+      },
+      "id": "d66cd2369210b27c9d0ba432909d035d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Greenland’s Long and Intense Melt Season Is a Worrying Sign for Sea Level",
+        "Link": "https://news.climate.columbia.edu/2022/09/29/greenlands-long-and-intense-melt-season-is-a-worrying-sign-for-sea-level/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "North Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -40.6209,
+          78.3845
+        ],
+        "type": "Point"
+      },
+      "id": "d79bd32b0e72e3f44a9afc65435cef4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "‘Terminal Moraine’ Artists Intend to Bring Brooklyn Back to its Glacial Roots",
+        "Link": "https://news.climate.columbia.edu/2021/03/26/terminal-moraine-art-brooklyn/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Brooklyn Botanic Garden NY"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9645,
+          40.6684
+        ],
+        "type": "Point"
+      },
+      "id": "d90129e447bba4a4d348c7bd45cd980e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Does an Iceberg Really Float?",
+        "Link": "https://news.climate.columbia.edu/2021/03/12/iceberg-really-float/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -57.0078,
+          54.7995
+        ],
+        "type": "Point"
+      },
+      "id": "d92cd0269c66d2c9b4a4d4ccd3eb3b1c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Coronavirus Is Affecting Communities in Glacier Regions",
+        "Link": "https://news.climate.columbia.edu/2020/03/17/covid-19-affecting-glacier-communities/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Whatcom County"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.576,
+          48.8856
+        ],
+        "type": "Point"
+      },
+      "id": "d9892caf949514d01134a665893d1f3c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Machine Learning Techniques Can Speed Up Glacier Modeling By A Thousand Times",
+        "Link": "https://news.climate.columbia.edu/2022/03/25/machine-learning-techniques-can-speed-up-glacier-modeling-by-a-thousand-times/",
+        "Year": "2022",
+        "Continent": "Europe",
+        "Location": "Zurich"
+      },
+      "geometry": {
+        "coordinates": [
+          8.5347,
+          47.3694
+        ],
+        "type": "Point"
+      },
+      "id": "d9bbbdba3d5d30224e537890a82fd058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "An Artificial Neural Network Joins the Fight Against Receding Glaciers",
+        "Link": "https://news.climate.columbia.edu/2021/05/05/artificial-neural-network-joins-fight-against-receding-glaciers/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -42.5733,
+          70.22
+        ],
+        "type": "Point"
+      },
+      "id": "daacced1978b63def7de49fb2b7cdcaa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Microplastics Are Affecting Melt Rates Of Snow And Ice",
+        "Link": "https://news.climate.columbia.edu/2021/04/01/microplastics-melt-snow-ice/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "Alps"
+      },
+      "geometry": {
+        "coordinates": [
+          11.2514,
+          47.0753
+        ],
+        "type": "Point"
+      },
+      "id": "db08b4b6455fd595ada5be4bbb7a5227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Melting Ice Reveals an Ancient Thriving Trade Route",
+        "Link": "https://news.climate.columbia.edu/2020/05/27/melting-ice-ancient-trade-route/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Loomseggen Ridge Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          8.377,
+          61.8188
+        ],
+        "type": "Point"
+      },
+      "id": "dc42f340add67f4cd9979361e599fcde"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A New Glacier Website From the Austrian Alps",
+        "Link": "https://news.climate.columbia.edu/2020/06/11/new-glacier-website-austrian-alps/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "University of Innsbruck"
+      },
+      "geometry": {
+        "coordinates": [
+          11.3838,
+          47.2631
+        ],
+        "type": "Point"
+      },
+      "id": "dda5967f4a35dc565f0cabe40a3e89c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Clark Glacier Commemorated at Funeral in Oregon",
+        "Link": "https://news.climate.columbia.edu/2020/10/27/clark-glacier-funeral-oregon/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Clark Glacier Oregon"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.7763,
+          44.0944
+        ],
+        "type": "Point"
+      },
+      "id": "ddf2f2bf89f75fcd56fcab5890f7f0f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Acoustics of Meltwater Drainage in Greenland Glacial Soundscapes",
+        "Link": "https://glacierhub.org/2020/04/16/acoustics-of-meltwater-drainage-in-greenland-glacial-soundscapes/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Bowdoin Glacier NW Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -68.5494,
+          77.7205
+        ],
+        "type": "Point"
+      },
+      "id": "de437eb989252b837fc4f2b96777277b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "‘Most Ice on Earth is Very Close to Melting Conditions’",
+        "Link": "https://glacierhub.org/2020/01/09/most-ice-on-earth-is-very-close-to-melting-conditions/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Oslo, Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          10.7218,
+          59.9399
+        ],
+        "type": "Point"
+      },
+      "id": "dee9d259a0512979dc40cb1a260cbb91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "National Parks in Argentina: Scenery or Sovereignty?",
+        "Link": "https://news.climate.columbia.edu/2020/10/23/los-glaciares-national-park/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Los Glaciares National Park Argentina"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.2167,
+          -50.354
+        ],
+        "type": "Point"
+      },
+      "id": "e0f0e8c3e543c98a6f1963a3a227ba31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Video Projected on Glacier Beckons Worldwide Climate Action",
+        "Link": "https://news.climate.columbia.edu/2020/10/15/video-projected-glacier-beckons-worldwide-climate-action/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Svalbard Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          14.8143,
+          78.9788
+        ],
+        "type": "Point"
+      },
+      "id": "e149e0780862cf716c5235d212fa3c88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Are US Glacier Counties Complying With Social Distancing?",
+        "Link": "https://glacierhub.org/2020/03/31/are-us-glacier-counties-complying-with-social-distancing/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "White Pine County Nevada"
+      },
+      "geometry": {
+        "coordinates": [
+          -114.962,
+          39.4366
+        ],
+        "type": "Point"
+      },
+      "id": "e2100c0d75b70f51be2f0240758605bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Juneau, Alaska Responds to Yearly Glacier Floods",
+        "Link": "https://news.climate.columbia.edu/2020/07/30/juneau-alaska-glacier-floods/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Juneau, AK"
+      },
+      "geometry": {
+        "coordinates": [
+          -134.4203,
+          58.3046
+        ],
+        "type": "Point"
+      },
+      "id": "e57d28fe18357eb6dac5b696b57ad3f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Grazing Disputes in Kyrgyzstan Reveal Pasture Access Concerns for Herders",
+        "Link": "https://news.climate.columbia.edu/2020/07/01/kyrgyzstan-pasture-access-disputes/",
+        "Year": "2020",
+        "Continent": "Asia",
+        "Location": "Kyrgyzstan Kochkor"
+      },
+      "geometry": {
+        "coordinates": [
+          75.7463,
+          42.2127
+        ],
+        "type": "Point"
+      },
+      "id": "e729555909e0263ed693b1e32b9d37bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Town at Risk in Next Great New Zealand Earthquake",
+        "Link": "https://news.climate.columbia.edu/2020/08/21/franz-josef-earthquake-new-zealand/",
+        "Year": "2020",
+        "Continent": "Oceania",
+        "Location": "Franz Josef New Zealand"
+      },
+      "geometry": {
+        "coordinates": [
+          170.1626,
+          -43.3703
+        ],
+        "type": "Point"
+      },
+      "id": "e73fb20209280b165a458e4ab32ae1c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fogo Island’s Icebergs",
+        "Link": "https://glacierhub.org/2020/04/28/fogo-islands-icebergs/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Fogo Island, Newfoundland Canada"
+      },
+      "geometry": {
+        "coordinates": [
+          -54.185,
+          49.6491
+        ],
+        "type": "Point"
+      },
+      "id": "e7fcd4a69ed76b3b58a54c557317f339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "During Low-Ice Seasons, Some Polar Bears Are Turning to Glacier Ice",
+        "Link": "https://news.climate.columbia.edu/2022/07/29/during-low-ice-seasons-some-polar-bears-are-turning-to-glacier-ice/",
+        "Year": "2022",
+        "Continent": "North America",
+        "Location": "Southeast Greenland"
+      },
+      "geometry": {
+        "coordinates": [
+          -42.9795,
+          60.9706
+        ],
+        "type": "Point"
+      },
+      "id": "e8a3d00cf6a7133817cd769f019f1319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Melting Ice and a High Altitude Dig Reveal Viking Secrets in Norway",
+        "Link": "https://news.climate.columbia.edu/2021/08/06/melting-ice-and-a-high-altitude-dig-reveal-viking-secrets-in-norway/",
+        "Year": "2021",
+        "Continent": "Europe",
+        "Location": "South Norway: Lendbreen Pass"
+      },
+      "geometry": {
+        "coordinates": [
+          8.312099,
+          61.8193
+        ],
+        "type": "Point"
+      },
+      "id": "e9babf1efd1dbfc340a209941f3a59db"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Does Debris Cover Offset Glacier Retreat In The Greater Caucasus?",
+        "Link": "https://glacierhub.org/2020/04/21/does-debris-cover-offset-glacier-retreat-in-the-greater-caucasus/",
+        "Year": "2020",
+        "Continent": "Europee",
+        "Location": "Mount Elbrus/Bezingi Glacier"
+      },
+      "geometry": {
+        "coordinates": [
+          43.1039,
+          43.0831
+        ],
+        "type": "Point"
+      },
+      "id": "e9d4fa93a2acb468ac8b344c5fe10651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Biden Administration Must Act Fast To Save Migratory Birds",
+        "Link": "https://news.climate.columbia.edu/2021/01/20/biden-administration-migratory-birds/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "DC"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0367,
+          38.8976
+        ],
+        "type": "Point"
+      },
+      "id": "eaf53f15b61c64bfc13d05c1ddf8c874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How an Adventurous Schoolteacher in the Washington Backcountry Launched the Pacific Crest Trail",
+        "Link": "https://news.climate.columbia.edu/2023/03/21/how-an-adventurous-schoolteacher-in-the-washington-backcountry-launched-the-pacific-crest-trail/",
+        "Year": "2023",
+        "Continent": "North America",
+        "Location": "Bellingham, WA"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.5008,
+          48.7773
+        ],
+        "type": "Point"
+      },
+      "id": "ed81245cdcb5ca19d7270226cba77f36"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Seabirds Find New Ways to Forage in a Changing Arctic",
+        "Link": "https://glacierhub.org/2020/01/23/seabirds-find-new-ways-to-forage-in-a-changing-arctic/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "West Spitsbergen Norway"
+      },
+      "geometry": {
+        "coordinates": [
+          11.4389,
+          78.9531
+        ],
+        "type": "Point"
+      },
+      "id": "ee1efb14812baf0d7a9005b61eb65620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Quest to Redesign Washington’s State Flag — and Honor Its Natural Landscape",
+        "Link": "https://news.climate.columbia.edu/2023/03/02/the-quest-to-redesign-washingtons-state-flag-and-honor-its-natural-landscape/",
+        "Year": "2023",
+        "Continent": "North America",
+        "Location": "Bellingham, WA"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.4805,
+          48.7546
+        ],
+        "type": "Point"
+      },
+      "id": "eeb7155da7b71894c724bb234506e20a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Iceland’s Most Active Volcano is Likely Headed for Another Eruption",
+        "Link": "https://news.climate.columbia.edu/2020/08/04/iceland-volcano-nearing-eruption/",
+        "Year": "2020",
+        "Continent": "Europe",
+        "Location": "Vatnajokull ice cap in Iceland"
+      },
+      "geometry": {
+        "coordinates": [
+          -16.8539,
+          64.439099
+        ],
+        "type": "Point"
+      },
+      "id": "eef71ecb7ba5fb37bcf2b9ae9e95929d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Melt Leads to Increased Carbon Dioxide Levels Due to These Tiny Fungi",
+        "Link": "https://news.climate.columbia.edu/2021/04/30/glacier-melt-leads-to-increased-carbon-dioxide-levels-due-to-these-tiny-fungi/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "Antisana region of Ecuador"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.1404,
+          -0.4857
+        ],
+        "type": "Point"
+      },
+      "id": "f02c4bbca78a17f522e3f099584bc58f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cordilleran Ice Sheet Retreat Caused Volcanic Eruptions, Deoxygenation Events 10,000 Years Ago",
+        "Link": "https://news.climate.columbia.edu/2023/03/08/cordilleran-ice-sheet-retreat-caused-volcanic-eruptions-deoxygenation-events-10000-years-ago/",
+        "Year": "2023",
+        "Continent": "North America",
+        "Location": "North Pacific"
+      },
+      "geometry": {
+        "coordinates": [
+          -135.6632,
+          51.1914
+        ],
+        "type": "Point"
+      },
+      "id": "f1a18a2691110fb910983a24a691dc96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "How Does an Iceberg Really Float?",
+        "Link": "https://news.climate.columbia.edu/2021/03/12/iceberg-really-float/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "UC Boulder"
+      },
+      "geometry": {
+        "coordinates": [
+          -105.2655,
+          40.0068
+        ],
+        "type": "Point"
+      },
+      "id": "f1e8b3937c7a06837493058bcfd70f50"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Environmentalists and Glacier Activists Are Poised to Rewrite Chile’s Constitution",
+        "Link": "https://news.climate.columbia.edu/2021/07/09/environmentalists-and-glacier-activists-are-poised-to-rewrite-chiles-constitution/",
+        "Year": "2021",
+        "Continent": "South America",
+        "Location": "Santiago, Chile"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.7116,
+          -33.4384
+        ],
+        "type": "Point"
+      },
+      "id": "f24c44557f5cf8b15de6949bf141bf4e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Large storage potential in future ice-free glacier basins",
+        "Link": "https://glacierhub.org/2019/12/03/large-storage-potential-in-future-ice-free-glacier-basins/",
+        "Year": "2019",
+        "Continent": "Europe",
+        "Location": "ETH Zurich"
+      },
+      "geometry": {
+        "coordinates": [
+          8.5471,
+          47.3764
+        ],
+        "type": "Point"
+      },
+      "id": "f6e6f7e0698d7f42bd293be3572e5c7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glacier Melt to Redirect Alaska’s Alsek River, Endangering World-Famous Rafting Route",
+        "Link": "https://news.climate.columbia.edu/2021/04/15/alsek-river-rafting-glacier-melt/",
+        "Year": "2021",
+        "Continent": "North America",
+        "Location": "Alsek River in Yukon"
+      },
+      "geometry": {
+        "coordinates": [
+          -138.1582,
+          59.2096
+        ],
+        "type": "Point"
+      },
+      "id": "f71aff4d2f77bd24e251fff544e85f71"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sea Ice That Slowed the Flow of Antarctic Glaciers Abruptly Shatters In Three Days",
+        "Link": "https://news.climate.columbia.edu/2022/03/11/sea-ice-that-slowed-the-flow-of-antarctic-glaciers-abruptly-shatters-in-three-days/",
+        "Year": "2022",
+        "Continent": "Antarctica",
+        "Location": "Larsen B embayment of Antarctic Peninsula"
+      },
+      "geometry": {
+        "coordinates": [
+          -59.945,
+          -64.6825
+        ],
+        "type": "Point"
+      },
+      "id": "f96027d16284052d4a32698cf0aa5da2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Echoing Wake of a Dying Glacier",
+        "Link": "https://news.climate.columbia.edu/2020/12/10/herald-harbinger-bow-glacier/",
+        "Year": "2020",
+        "Continent": "North America",
+        "Location": "Calgary Canada"
+      },
+      "geometry": {
+        "coordinates": [
+          -114.0415,
+          51.0462
+        ],
+        "type": "Point"
+      },
+      "id": "fa9eebcc527efa9bb2cba9019e2b87f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Glaciers May Record the Story of the Coronavirus Pandemic",
+        "Link": "https://news.climate.columbia.edu/2020/06/18/glaciers-record-coronavirus-pandemic/",
+        "Year": "2020",
+        "Continent": "South America",
+        "Location": "Patagonia"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.455,
+          -50.6962
+        ],
+        "type": "Point"
+      },
+      "id": "fcaa18df448a6826f3ab8e541eb9f4b2"
+    }
+  ],
+  "type": "FeatureCollection"
+}
