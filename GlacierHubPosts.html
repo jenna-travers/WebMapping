@@ -2,13 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Show and hide layers</title>
+        <title>GlacierHub Post Archive</title>
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
         <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
         <style>
             body { margin: 0; padding: 0; }
             #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+            h1 {
+                font-size: 22px;
+                text-align: center;
+                color: #1c305c;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;  
+            }
+            p {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+            }
+            p1{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12px;
+                font-style: italic;
+            }
             .year {font-family: 'Open Sans', sans-serif;
                 color: #75be47;
                 font-style: italic;
@@ -23,9 +40,11 @@
                 text-decoration: underline !important;}
             
             .fly {
-            display: inline-block; /* displays over the map */
+            display: block; /* displays over the map */
             position: relative; /* displays over the map */
-            margin: 5px;  /* width of parent div */
+            margin: 5px;
+            top: 54px;
+            width: 177px;
             padding: 10px;
             border: 1px solid rgba(255, 255, 255, 1);
             border-radius: 3px; /* rounded corners */
@@ -35,6 +54,7 @@
             color: #fff;
             background: #2f79ac;
             cursor:pointer;
+            margin-bottom: -8px;
             }
             .fly:hover{
                 background: #245d84;
@@ -43,8 +63,67 @@
                 font-family: 'Open Sans', sans-serif;
                 font-weight: bold;
                 font-size: 14px;
-                top: 10px;
+                position: relative;
+                margin-top: 100%;
             } 
+            .flyhead{
+                position: absolute;
+                margin: 5px;  /* width of parent div */
+                width: 177px;
+                left: 0px;
+                top:10px;
+                padding: 10px;
+                border: 1px solid rgba(255, 255, 255, 1);
+                border-radius: 3px; /* rounded corners */
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                background: #245d84;
+                margin-bottom: -8px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            .yearhead{
+                position: absolute;
+                margin: 5px;  /* width of parent div */
+                width: 175px;
+                right: 0px;
+                top:10px;
+                padding: 10px;
+                border: 1px solid rgba(255, 255, 255, 1);
+                border-radius: 3px; /* rounded corners */
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                background: #245d84;
+                margin-bottom: -8px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+        /* style for items with the class "descriptionPanel" */
+        .descriptionPanel { position: absolute;
+                bottom: 30px;
+                right: 5px;
+                z-index: 2;
+                width: 300px;
+                height: 240px;
+                background: rgba(255, 255, 255, .75);
+                transition: width 2s, height 2s;
+                overflow: hidden;
+                border-radius: 7px; }        
+
+         /* style for items with the class "chevron" */
+        .chevron { position: relative;
+                margin-left: 45%;
+                font-size: x-large;
+                color: black;
+                cursor:pointer;}
+         body { margin:0; padding:0; }
+         #map { position:absolute; top:0; bottom:0; width:100%; }
+
         </style>
     </head>
     <body>
@@ -53,16 +132,16 @@
                 background: #fff;
                 position: absolute;
                 z-index: 1;
-                bottom: 50px;
-                right: 10px;
+                top: 85px;
+                right: 5px;
                 border-radius: 3px;
-                width: 120px;
+                width: 175px;
                 border: 1px solid rgba(255, 255, 255, 0.4);
                 font-family: 'Open Sans', sans-serif;
                 font-weight: bold;
                 font-size: 14px;
             }
- 
+
             #menu a {
                 font-size: 14px;
                 color: #404040;
@@ -70,7 +149,7 @@
                 margin: 0;
                 padding: 10px;
                 text-decoration: none;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+                border-bottom: 1px solid rgba(255, 255, 255, 1);
                 text-align: center;
             }
  
@@ -85,7 +164,7 @@
  
             #menu a.active {
                 background-color: #2f79ac;
-                color: #ffffff;
+                color: #1c305c;
             }
  
             #menu a.active:hover {
@@ -95,14 +174,28 @@
  
         <nav id="menu"></nav>
         <div id="map"></div>
-        <button class='fly' id='hmaButton'>High Mountain Asia</button> 
-        <button class='fly' id='cascadesButton'>The Cascades</button> 
-        <button class='fly' id='arcticButton'>The Arctic</button> 
-        <button class='fly' id='antarcticaButton'>Antarctica</button> 
-        <button class='fly' id='andesButton'>The Andes</button> 
-        <button class='fly' id='alpsButton'>The Alps</button>
+        <div class='flyhead'>See Stories From:
+        </div>
+        <div class='yearhead'>Filter Stories By Year:
+        </div>
         <button class='fly' id='alaskaButton'>Alaska</button>
+        <button class='fly' id='antarcticaButton'>Antarctica</button>
+        <button class='fly' id='hmaButton'>High Mountain Asia</button>
+        <button class='fly' id='alpsButton'>The Alps</button>
+        <button class='fly' id='andesButton'>The Andes</button> 
+        <button class='fly' id='arcticButton'>The Arctic</button>  
+        <button class='fly' id='cascadesButton'>The Cascades</button> 
         <button class='fly' id='globeButton'>Back to Globe</button>
+        
+        <div class="descriptionPanel" id="descriptionPanel">
+            <span onClick=panelSelect() id="glyph" class="chevron glyphicon glyphicon-chevron-down"></span>
+            <h1 style="margin-left: 10px; margin-right: 10px;">GlacierHub Post Archive</h1>
+            <p style="margin-left: 10px; margin-right: 10px;">
+                Pan around and click on the points to read stories from <a href="https://news.climate.columbia.edu/features/glacierhub/" target="_blank">GlacierHub</a>, the glacier and ice-focused climate news outlet from Columbia University. Use the menu in the top right to filter by year or click the buttons in the top left to fly to glacier news hotspots.
+            </p>
+            <p1 style="margin-left: 10px; margin-right: 10px;"> By Jenna Travers for GEOG 490: Web Mapping
+            </p1>
+        </div> <!-- map description panel -->
         <script>
             mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmF0cmF2ZXJzIiwiYSI6ImNsZzVmbXh0YjAzMWMzZXBjdXd4NzJ2NHAifQ.ou_E1YintKKKPSq62rxapw';
             const map = new mapboxgl.Map({
@@ -116,7 +209,13 @@
  
 // Wait until the map has finished loading.
             map.on('load', () => {
-                
+             
+                map.flyTo({
+                center: [(Math.random() - 0.5) * 360, (Math.random() - 0.5) * 100],
+                essential: true,
+                zoom: 1,
+                speed: 0.5,
+                });
                  //***2019 LAYER***//
                 
                 map.addSource('nineteenGH', {
@@ -149,7 +248,9 @@
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
  
-                    new mapboxgl.Popup()
+                    new mapboxgl.Popup({
+                        closeButton: false
+                    })
                         .setLngLat(coordinates)
                         .setHTML(    
                         `<a href=${link} class="link" target="_blank">${title}</a><br>
@@ -198,7 +299,9 @@
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
  
-                    new mapboxgl.Popup()
+                    new mapboxgl.Popup({
+                        closeButton: false
+                    })
                         .setLngLat(coordinates)
                         .setHTML(    
                         `<a href=${link} class="link" target="_blank">${title}</a><br>
@@ -247,7 +350,9 @@
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
  
-                    new mapboxgl.Popup()
+                    new mapboxgl.Popup({
+                        closeButton: false
+                    })
                         .setLngLat(coordinates)
                         .setHTML(    
                         `<a href=${link} class="link" target="_blank">${title}</a><br>
@@ -296,7 +401,9 @@
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
  
-                    new mapboxgl.Popup()
+                    new mapboxgl.Popup({
+                        closeButton: false
+                    })
                         .setLngLat(coordinates)
                         .setHTML(    
                         `<a href=${link} class="link" target="_blank">${title}</a><br>
@@ -343,7 +450,9 @@
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
  
-                    new mapboxgl.Popup()
+                    new mapboxgl.Popup({
+                        closeButton: false
+                    })
                         .setLngLat(coordinates)
                         .setHTML(    
                         `<a href=${link} class="link" target="_blank">${title}</a><br>
@@ -371,13 +480,22 @@
                     !map.getLayer('2019') ) {
                     return;
                 }
+                
+                const clr23 = ['#4394cb', '#00acf1', '#64cef5', '#b3e5fa', '#d5eeff'];
+                
+                const offclr23 = ['white', 'white', 'white', 'white', 'white'];
  
 // Enumerate ids of the layers.
                 const toggleableLayerIds = ['2023', '2022', '2021','2020','2019'];
  
 // Set up the corresponding toggle button for each layer.
-                for (const id of toggleableLayerIds) {
+                 for (let num = 0; num < 5; num++) {
+                // for (const id of toggleableLayerIds) {
 // Skip layers that already have a button set up.
+                    var id = toggleableLayerIds[num];
+                    var clr = clr23[num];
+                    var offclr= offclr23[num]; 
+                     console.log(clr)
                     if (document.getElementById(id)) {
                         continue;
                     }
@@ -385,6 +503,7 @@
 // Create a link.
                     const link = document.createElement('a');
                     link.id = id;
+                    link.style.backgroundColor = clr;
                     link.href = '#';
                     link.textContent = id;
                     link.className = 'active';
@@ -402,9 +521,29 @@
  
 // Toggle layer visibility by changing the layout object's visibility property.
                         if (visibility === 'visible') {
+                            link.style.backgroundColor = offclr;
                             map.setLayoutProperty(clickedLayer, 'visibility', 'none');
                             this.className = '';
                         } else {
+                            if(clickedLayer == '2023') {
+                                link.style.backgroundColor = '#4394cb';
+                            }
+                            else if(clickedLayer == '2022') {
+                                link.style.backgroundColor = '#00acf1';
+                            }
+                            else if(clickedLayer == '2021') {
+                                link.style.backgroundColor = '#64cef5';
+                            }
+                            else if(clickedLayer == '2020') {
+                                link.style.backgroundColor = '#b3e5fa';
+                            }
+                            else if(clickedLayer == '2019') {
+                                link.style.backgroundColor = '#d5eeff';
+                            }
+                            else {
+                                link.style.backgroundColor = offclr;
+                            }
+
                             this.className = 'active';
                             map.setLayoutProperty(
                                 clickedLayer,
@@ -421,52 +560,73 @@
              document.getElementById('hmaButton').addEventListener('click', function () {
             map.flyTo({
                 center: [78.888,33.458], 
-                zoom: 4
+                zoom: 4,
+                speed: 0.6,
             });
             });
             document.getElementById('cascadesButton').addEventListener('click', function () {
             map.flyTo({
                 center: [-122.485,47.215], 
-                zoom: 5.5
+                zoom: 5.5,
+                speed: 0.6,
             });
             });
             document.getElementById('arcticButton').addEventListener('click', function () {
             map.flyTo({
                 center: [-39.940,73.090], 
-                zoom: 3.4
+                zoom: 3.4,
+                speed: 0.6,
             });
             });
             document.getElementById('antarcticaButton').addEventListener('click', function () {
             map.flyTo({
                 center: [-48.635,-85.051], 
-                zoom: 2.5
+                zoom: 2.5,
+                speed: 0.6,
             });
             });
             document.getElementById('andesButton').addEventListener('click', function () {
             map.flyTo({
                 center: [-74.992,-30.597], 
-                zoom: 2.75
+                zoom: 2.75,
+                speed: 0.6,
             });
             });
             document.getElementById('alpsButton').addEventListener('click', function () {
             map.flyTo({
                 center: [10.130,47.163], 
-                zoom: 5.5
+                zoom: 5.5,
+                speed: 0.6,
             });
             });
             document.getElementById('alaskaButton').addEventListener('click', function () {
             map.flyTo({
                 center: [-152.124,61.293], 
-                zoom: 3.5
+                zoom: 3.5,
+                speed: 0.6,
             });
             });
             document.getElementById('globeButton').addEventListener('click', function () {
             map.flyTo({
-                    center: [(Math.random() - 0.5) * 360, (Math.random() - 0.5) * 100],
-                    essential: true,
-                    zoom: 1,
+                center: [(Math.random() - 0.5) * 360, (Math.random() - 0.5) * 100],
+                essential: true,
+                zoom: 1,
+                speed: 0.6,
                 });
                 });
+            
+            var state = { panelOpen: true };
+
+      function panelSelect(e){
+        if(state.panelOpen){
+          document.getElementById('descriptionPanel').style.height = '26px';
+          document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-up";
+          state.panelOpen = false;} 
+          else { document.getElementById('descriptionPanel').style.height = '240px';
+          document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-down";
+          state.panelOpen = true;
+        }
+      }
         </script>
  
     </body>
