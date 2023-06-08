@@ -121,8 +121,6 @@
                 font-size: x-large;
                 color: black;
                 cursor:pointer;}
-         body { margin:0; padding:0; }
-         #map { position:absolute; top:0; bottom:0; width:100%; }
 
         </style>
     </head>
@@ -158,7 +156,7 @@
             }
  
             #menu a:hover {
-                background-color: #f8f8f8;
+                background-color: #e1e1e1 !important;
                 color: #404040;
             }
  
@@ -168,7 +166,8 @@
             }
  
             #menu a.active:hover {
-                background: #245d84;
+                background: #4f7da9 !important;
+                color: #ffffff !important;
             }
         </style>
  
@@ -202,19 +201,106 @@
                 container: 'map',
                 // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
                 style: 'mapbox://styles/mapbox/outdoors-v12',
-                zoom: 1,
-                center: [-74,40.7],
+                zoom: 1.5,
+                center: [-39.661, 20.039],
                 maxZoom: 14,
             });
+            var regions = {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Alaska"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-152.124, 61.293]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Alps"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [10.130, 47.163]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Andes"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-74.992, -30.597]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Antarctic"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-48.635, -85.051]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Arctic"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-39.94, 73.09]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "Cascades"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-122.485, 47.215]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "name": "High Mountain Asia"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [78.888,33.458]
+                        }
+                    }
+                ]
+            }
+            
+            
  
-// Wait until the map has finished loading.
+            // Wait until the map has finished loading.
             map.on('load', () => {
-             
+                
+                
+                map.addSource('regions', {
+                    'type': 'geojson',
+                    'data': regions
+                });
+                
+                const allFeatures = regions.features;
+                const randomIndex = Math.floor(Math.random()*allFeatures.length);
+                const randomFeature = allFeatures[randomIndex];
+                const randomRegion = randomFeature.geometry.coordinates.slice();
+                
                 map.flyTo({
-                center: [(Math.random() - 0.5) * 360, (Math.random() - 0.5) * 100],
-                essential: true,
-                zoom: 1,
-                speed: 0.5,
+                center: randomRegion,
+                zoom: 1.5,
+                speed: 0.25,
                 });
                  //***2019 LAYER***//
                 
@@ -607,24 +693,29 @@
             });
             });
             document.getElementById('globeButton').addEventListener('click', function () {
-            map.flyTo({
-                center: [(Math.random() - 0.5) * 360, (Math.random() - 0.5) * 100],
-                essential: true,
-                zoom: 1,
-                speed: 0.6,
+                
+            const allFeatures = regions.features;
+                const randomIndex = Math.floor(Math.random()*allFeatures.length);
+                const randomFeature = allFeatures[randomIndex];
+                const randomRegion = randomFeature.geometry.coordinates.slice();
+                
+                map.flyTo({
+                center: randomRegion,
+                zoom: 1.5,
+                speed: 0.5,
                 });
-                });
-            
+            });
             var state = { panelOpen: true };
 
-      function panelSelect(e){
-        if(state.panelOpen){
-          document.getElementById('descriptionPanel').style.height = '26px';
-          document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-up";
-          state.panelOpen = false;} 
-          else { document.getElementById('descriptionPanel').style.height = '240px';
-          document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-down";
-          state.panelOpen = true;
+            function panelSelect(e){
+                if(state.panelOpen){
+                    document.getElementById('descriptionPanel').style.height = '26px';
+                    document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-up";
+                    state.panelOpen = false;} 
+                else {           
+                    document.getElementById('descriptionPanel').style.height = '240px';
+                    document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-down";
+                    state.panelOpen = true;
         }
       }
         </script>
