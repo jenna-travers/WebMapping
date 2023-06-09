@@ -204,15 +204,14 @@
                 center: [-39.661, 20.039],
                 maxZoom: 14,
             });
-            
+            //add zoom control for accessibility
             var nav = new mapboxgl.NavigationControl({
                 showCompass: false,
-                minZoom: 1,
+                minZoom: 1.5,
                 maxZoom: 14,
-                
             });
-
             map.addControl(nav, "bottom-left");
+            
             //create variables for regions so I can do a random fly later
             var regions = {
                 "type": "FeatureCollection",
@@ -359,7 +358,6 @@
                 });
                 
                 //***add 2020 point layer***//
-                
                 map.addSource('twentyGH', {
                     type: 'vector',
                     url: 'mapbox://jennatravers.c25xkgha'
@@ -409,7 +407,6 @@
                 });
                 
                 //***add 2021 point layer***//
-                
                 map.addSource('twentyoneGH', {
                     type: 'vector',
                     url: 'mapbox://jennatravers.179skep5'
@@ -459,7 +456,6 @@
                 });
                 
                 //***add 2022 point layer***//
-                
                 map.addSource('twentytwoGH', {
                     type: 'vector',
                     url: 'mapbox://jennatravers.7j5ym9v5'
@@ -511,7 +507,6 @@
                 
                 //***add 2023 point layer***//
                 //doing this one last so it's the top layer//
-                
                 map.addSource('twentythreeGH', {
                     type: 'vector',
                     url: 'mapbox://jennatravers.3c168aw3'
@@ -562,9 +557,9 @@
  
             });
  
-// After the last frame rendered before the map enters an "idle" state.
+            // After the last frame rendered before the map enters an "idle" state.
             map.on('idle', () => {
-// If these layers were not added to the map, abort
+            // If these layers were not added to the map, abort
                 if (!map.getLayer('2023') || 
                     !map.getLayer('2022') || 
                     !map.getLayer('2021') || 
@@ -710,7 +705,7 @@
                 map.flyTo({
                 center: randomRegion,
                 zoom: 1.5,
-                speed: 0.5,
+                speed: 0.5, //slower than others because it looked better
                 });
             });
             
