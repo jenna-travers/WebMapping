@@ -26,6 +26,8 @@
                 font-size: 12px;
                 font-style: italic;
             }
+            
+            /*formatting for popup variables*/
             .year {font-family: 'Open Sans', sans-serif;
                 color: #75be47;
                 font-style: italic;
@@ -39,9 +41,10 @@
             .link:hover{color: #238b21 !important;
                 text-decoration: underline !important;}
             
+            /*formatting for fly buttons*/
             .fly {
-            display: block; /* displays over the map */
-            position: relative; /* displays over the map */
+            display: block;
+            position: relative;
             margin: 5px;
             top: 54px;
             width: 177px;
@@ -65,10 +68,11 @@
                 font-size: 14px;
                 position: relative;
                 margin-top: 100%;
-            } 
+            }
+            /*formatting for fly button header*/
             .flyhead{
                 position: absolute;
-                margin: 5px;  /* width of parent div */
+                margin: 5px; 
                 width: 177px;
                 left: 0px;
                 top:10px;
@@ -84,6 +88,7 @@
                 font-weight: bold;
                 text-decoration: underline;
             }
+            /*formatting for year menu header*/
             .yearhead{
                 position: absolute;
                 margin: 5px;  /* width of parent div */
@@ -103,7 +108,7 @@
                 text-decoration: underline;
             }
 
-        /* style for items with the class "descriptionPanel" */
+        /* style for "descriptionPanel" */
         .descriptionPanel { position: absolute;
                 bottom: 30px;
                 right: 5px;
@@ -121,11 +126,11 @@
                 font-size: x-large;
                 color: black;
                 cursor:pointer;}
-
         </style>
     </head>
     <body>
         <style>
+            /*style for menu, not in CSS because it's data-based*/
             #menu {
                 background: #fff;
                 position: absolute;
@@ -139,7 +144,6 @@
                 font-weight: bold;
                 font-size: 14px;
             }
-
             #menu a {
                 font-size: 14px;
                 color: #404040;
@@ -150,33 +154,30 @@
                 border-bottom: 1px solid rgba(255, 255, 255, 1);
                 text-align: center;
             }
- 
             #menu a:last-child {
                 border: none;
             }
- 
             #menu a:hover {
                 background-color: #e1e1e1 !important;
                 color: #404040;
             }
- 
             #menu a.active {
-                background-color: #2f79ac;
                 color: #1c305c;
             }
- 
             #menu a.active:hover {
                 background: #4f7da9 !important;
                 color: #ffffff !important;
             }
         </style>
- 
+        
         <nav id="menu"></nav>
         <div id="map"></div>
+        <!-- headers -->
         <div class='flyhead'>See Stories From:
         </div>
         <div class='yearhead'>Filter Stories By Year:
         </div>
+        <!-- fly butttons -->
         <button class='fly' id='alaskaButton'>Alaska</button>
         <button class='fly' id='antarcticaButton'>Antarctica</button>
         <button class='fly' id='hmaButton'>High Mountain Asia</button>
@@ -185,7 +186,7 @@
         <button class='fly' id='arcticButton'>The Arctic</button>  
         <button class='fly' id='cascadesButton'>The Cascades</button> 
         <button class='fly' id='globeButton'>Back to Globe</button>
-        
+        <!-- map description panel -->
         <div class="descriptionPanel" id="descriptionPanel">
             <span onClick=panelSelect() id="glyph" class="chevron glyphicon glyphicon-chevron-down"></span>
             <h1 style="margin-left: 10px; margin-right: 10px;">GlacierHub Post Archive</h1>
@@ -194,17 +195,17 @@
             </p>
             <p1 style="margin-left: 10px; margin-right: 10px;"> By <a href="https://news.climate.columbia.edu/author/jtravers/" target="_blank">Jenna Travers</a>, writer/cartographer at GlacierHub
             </p1>
-        </div> <!-- map description panel -->
+        </div>
         <script>
             mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmF0cmF2ZXJzIiwiYSI6ImNsZzVmbXh0YjAzMWMzZXBjdXd4NzJ2NHAifQ.ou_E1YintKKKPSq62rxapw';
             const map = new mapboxgl.Map({
                 container: 'map',
-                // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
                 style: 'mapbox://styles/mapbox/outdoors-v12',
                 zoom: 1.5,
                 center: [-39.661, 20.039],
                 maxZoom: 14,
             });
+            //create variables for regions so I can do a random fly later
             var regions = {
                 "type": "FeatureCollection",
                 "features": [
@@ -281,29 +282,26 @@
                 ]
             }
             
-            
- 
-            // Wait until the map has finished loading.
-            map.on('load', () => {
-                
-                
+            //random fly with variables just created
+            map.on('load', () => {     
                 map.addSource('regions', {
                     'type': 'geojson',
                     'data': regions
                 });
-                
+                //create constants for the features, randomize them, and then fly to a random region
                 const allFeatures = regions.features;
                 const randomIndex = Math.floor(Math.random()*allFeatures.length);
                 const randomFeature = allFeatures[randomIndex];
                 const randomRegion = randomFeature.geometry.coordinates.slice();
-                
+                //actual fly to function with these constants
                 map.flyTo({
                 center: randomRegion,
                 zoom: 1.5,
                 speed: 0.25,
                 });
-                 //***2019 LAYER***//
                 
+                
+                 //***add 2019 point layer***//
                 map.addSource('nineteenGH', {
                     type: 'vector',
                     url: 'mapbox://jennatravers.88ma9svl'
@@ -313,7 +311,6 @@
                     'type': 'circle',
                     'source': 'nineteenGH',
                     'layout': {
-// Make the layer visible by default.
                         'visibility': 'visible'
                     },
                     'paint': {
@@ -324,6 +321,7 @@
                     },
                     'source-layer': 'GlacierHub2019-21ziyg'
                 });
+                //popups for 2019
                 map.on('click', '2019', (e) => {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var title = e.features[0].properties.Name;
@@ -333,7 +331,7 @@
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
- 
+                    //no close button so it looks cleaner
                     new mapboxgl.Popup({
                         closeButton: false
                     })
@@ -352,7 +350,7 @@
                     map.getCanvas().style.cursor = '';
                 });
                 
-                //***2020 LAYER***//
+                //***add 2020 point layer***//
                 
                 map.addSource('twentyGH', {
                     type: 'vector',
@@ -363,7 +361,6 @@
                     'type': 'circle',
                     'source': 'twentyGH',
                     'layout': {
-// Make the layer visible by default.
                         'visibility': 'visible'
                     },
                     'paint': {
@@ -374,7 +371,7 @@
                     },
                     'source-layer': 'GlacierHub2020-1mfnpd'
                 });
-                
+                //popups for 2020
                 map.on('click', '2020', (e) => {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var title = e.features[0].properties.Name;
@@ -384,7 +381,7 @@
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
- 
+                    //no close button so it looks cleaner
                     new mapboxgl.Popup({
                         closeButton: false
                     })
@@ -403,7 +400,7 @@
                     map.getCanvas().style.cursor = '';
                 });
                 
-                //***2021 LAYER***//
+                //***add 2021 point layer***//
                 
                 map.addSource('twentyoneGH', {
                     type: 'vector',
@@ -414,7 +411,6 @@
                     'type': 'circle',
                     'source': 'twentyoneGH',
                     'layout': {
-// Make the layer visible by default.
                         'visibility': 'visible'
                     },
                     'paint': {
@@ -425,7 +421,7 @@
                     },
                     'source-layer': 'GlacierHub2021-2pt1ew'
                 });
-                
+                //popups for 2021
                 map.on('click', '2021', (e) => {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var title = e.features[0].properties.Name;
@@ -435,7 +431,7 @@
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
- 
+                    //no close button so it looks cleaner
                     new mapboxgl.Popup({
                         closeButton: false
                     })
@@ -454,7 +450,7 @@
                     map.getCanvas().style.cursor = '';
                 });
                 
-                //***2022 LAYER***//
+                //***add 2022 point layer***//
                 
                 map.addSource('twentytwoGH', {
                     type: 'vector',
@@ -476,7 +472,7 @@
                     },
                     'source-layer': 'GlacierHub2022-4eerna'
                 });
-                
+                //popups for 2022
                 map.on('click', '2022', (e) => {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var title = e.features[0].properties.Name;
@@ -486,7 +482,7 @@
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
- 
+                    //no close button so it looks cleaner
                     new mapboxgl.Popup({
                         closeButton: false
                     })
@@ -505,7 +501,8 @@
                     map.getCanvas().style.cursor = '';
                 });
                 
-                //***2023 LAYER***//
+                //***add 2023 point layer***//
+                //doing this one last so it's the top layer//
                 
                 map.addSource('twentythreeGH', {
                     type: 'vector',
@@ -526,6 +523,7 @@
                     },
                     'source-layer': 'GlacierHub2023-dyq90b'
                 });
+                //popups for 2023
                 map.on('click', '2023', (e) => {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var title = e.features[0].properties.Name;
@@ -535,7 +533,7 @@
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                     }
- 
+                    //no close button so it looks cleaner
                     new mapboxgl.Popup({
                         closeButton: false
                     })
@@ -566,85 +564,86 @@
                     !map.getLayer('2019') ) {
                     return;
                 }
-                
+                //create constant colors to be applied while menu options are active
                 const clr23 = ['#4394cb', '#00acf1', '#64cef5', '#b3e5fa', '#d5eeff'];
-                
+                //create constant colors to be applied while menu options are off
                 const offclr23 = ['white', 'white', 'white', 'white', 'white'];
  
-// Enumerate ids of the layers.
+                // Set order of layer IDs to match constant colors
                 const toggleableLayerIds = ['2023', '2022', '2021','2020','2019'];
  
-// Set up the corresponding toggle button for each layer.
+                // range from 1-5
                  for (let num = 0; num < 5; num++) {
-                // for (const id of toggleableLayerIds) {
-// Skip layers that already have a button set up.
-                    var id = toggleableLayerIds[num];
-                    var clr = clr23[num];
-                    var offclr= offclr23[num]; 
+                     //create variables referencing numbers (1-5) of the previous constants
+                     var id = toggleableLayerIds[num];
+                     var clr = clr23[num];
+                     var offclr= offclr23[num]; 
                      console.log(clr)
-                    if (document.getElementById(id)) {
+                     if (document.getElementById(id)) {
                         continue;
-                    }
+                     }
  
-// Create a link.
-                    const link = document.createElement('a');
-                    link.id = id;
-                    link.style.backgroundColor = clr;
-                    link.href = '#';
-                    link.textContent = id;
-                    link.className = 'active';
+                     // Create a link.
+                     const link = document.createElement('a');
+                     link.id = id;
+                     link.style.backgroundColor = clr;
+                     link.href = '#';
+                     link.textContent = id;
+                     link.className = 'active';
+    
+                     // Show or hide layer when the toggle is clicked.
+                     link.onclick = function (e) {
+                         const clickedLayer = this.textContent;
+                         e.preventDefault();
+                         e.stopPropagation();
  
-// Show or hide layer when the toggle is clicked.
-                    link.onclick = function (e) {
-                        const clickedLayer = this.textContent;
-                        e.preventDefault();
-                        e.stopPropagation();
+                         const visibility = map.getLayoutProperty(
+                             clickedLayer,
+                             'visibility'
+                         );
  
-                        const visibility = map.getLayoutProperty(
-                            clickedLayer,
-                            'visibility'
-                        );
- 
-// Toggle layer visibility by changing the layout object's visibility property.
-                        if (visibility === 'visible') {
-                            link.style.backgroundColor = offclr;
-                            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-                            this.className = '';
-                        } else {
-                            if(clickedLayer == '2023') {
-                                link.style.backgroundColor = '#4394cb';
-                            }
-                            else if(clickedLayer == '2022') {
-                                link.style.backgroundColor = '#00acf1';
-                            }
-                            else if(clickedLayer == '2021') {
-                                link.style.backgroundColor = '#64cef5';
-                            }
-                            else if(clickedLayer == '2020') {
-                                link.style.backgroundColor = '#b3e5fa';
-                            }
-                            else if(clickedLayer == '2019') {
-                                link.style.backgroundColor = '#d5eeff';
-                            }
-                            else {
-                                link.style.backgroundColor = offclr;
-                            }
+                         // Toggle layer visibility by clicking and set background color depending on which one is clicked
+                         if (visibility === 'visible') {
+                             link.style.backgroundColor =   offclr;
+                             map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                             this.className = '';
+                         } else {
+                             if(clickedLayer == '2023') {
+                                 link.style.backgroundColor = '#4394cb';
+                             }
+                             else if(clickedLayer == '2022') {
+                                 link.style.backgroundColor = '#00acf1';
+                             }
+                             else if(clickedLayer == '2021') {
+                                 link.style.backgroundColor = '#64cef5';
+                             }
+                             else if(clickedLayer == '2020') {
+                                 link.style.backgroundColor = '#b3e5fa';
+                             }
+                             else if(clickedLayer == '2019') {
+                                 link.style.backgroundColor = '#d5eeff';
+                             }
+                             else {
+                                 link.style.backgroundColor = offclr;
+                             }
 
-                            this.className = 'active';
-                            map.setLayoutProperty(
-                                clickedLayer,
-                                'visibility',
-                                'visible'
-                            );
-                        }
-                    };
+                             this.className = 'active';
+                             map.setLayoutProperty(
+                                 clickedLayer,
+                                 'visibility',
+                                 'visible'
+                             );
+                         }
+                     };
  
-                    const layers = document.getElementById('menu');
-                    layers.appendChild(link);
-                }
+                     const layers = document.getElementById('menu');
+                     layers.appendChild(link);
+                 }
             });
-             document.getElementById('hmaButton').addEventListener('click', function () {
-            map.flyTo({
+            
+            //set up fly to buttons, same speed, different zooms so that it fits in window
+            document.getElementById('hmaButton').addEventListener('click', function () {
+                map.flyTo({
                 center: [78.888,33.458], 
                 zoom: 4,
                 speed: 0.6,
@@ -692,6 +691,7 @@
                 speed: 0.6,
             });
             });
+            //random region select just like the on load fly
             document.getElementById('globeButton').addEventListener('click', function () {
                 
             const allFeatures = regions.features;
@@ -702,9 +702,11 @@
                 map.flyTo({
                 center: randomRegion,
                 zoom: 1.5,
-                speed: 0.5,
+                speed: 0.25,
                 });
             });
+            
+            //description panel open and closing when clicking on glyph
             var state = { panelOpen: true };
 
             function panelSelect(e){
@@ -716,8 +718,8 @@
                     document.getElementById('descriptionPanel').style.height = '240px';
                     document.getElementById('glyph').className = "chevron glyphicon glyphicon-chevron-down";
                     state.panelOpen = true;
-        }
-      }
+                }
+            }
         </script>
  
     </body>
