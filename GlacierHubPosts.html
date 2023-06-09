@@ -67,7 +67,6 @@
                 font-weight: bold;
                 font-size: 14px;
                 position: relative;
-                margin-top: 100%;
             }
             /*formatting for fly button header*/
             .flyhead{
@@ -205,6 +204,15 @@
                 center: [-39.661, 20.039],
                 maxZoom: 14,
             });
+            
+            var nav = new mapboxgl.NavigationControl({
+                showCompass: false,
+                minZoom: 1,
+                maxZoom: 14,
+                
+            });
+
+            map.addControl(nav, "bottom-left");
             //create variables for regions so I can do a random fly later
             var regions = {
                 "type": "FeatureCollection",
